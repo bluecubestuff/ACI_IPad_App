@@ -1,0 +1,72 @@
+fileFormatVersion: 2
+<<<<<<< HEAD
+guid: 490294663a0be8d4c8b54061c0844094
+timeCreated: 1493189522
+=======
+<<<<<<< HEAD
+guid: 17c08efc2c39f1d40a4e05b81758aad2
+timeCreated: 1493022504
+=======
+<<<<<<< HEAD
+guid: bdbe42d8f7210fd46a4b86fba46dedf6
+timeCreated: 1493011831
+=======
+guid: 85475632c35615e4d8b0ede0fea2d9ee
+timeCreated: 1493011868
+>>>>>>> 47a45eeb4ce531fc0fe4668d40529854b797593c
+>>>>>>> 6f64e609a51d82f54c97d573b131e8ef03b3443d
+>>>>>>> 48c9706d5007944a8b758cacc280b9549d07a9a4
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName: {}
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: -1
+  nPOTScale: 1
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 0
+  textureType: -1
+  buildTargetSettings: []
+  spriteSheet:
+    sprites: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

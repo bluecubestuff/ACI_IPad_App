@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/VirtualScenes/MainMenu.unity
+    guid: 3f1739fdb181184438837c1a1067c08f
+  - enabled: 1
+    path: Assets/Scenes/LoadingScene.unity
+    guid: 79a61ae33d3e07f45b0c11bc3696c24b
+  - enabled: 1
+    path: Assets/Scenes/VirtualScenes/Virt_Restuarant.unity
+    guid: 803a4e89145527d45baf683b9f179d46
+  - enabled: 1
+    path: Assets/Scenes/VirtualScenes/Virt_MeatFabrication.unity
+    guid: 015d14c4c91507948a40729d141eee9a
+  - enabled: 1
+    path: Assets/Scenes/VirtualScenes/Virt_Storage.unity
+    guid: 43df9c88ac9edd142a8029be1b09e23e
+  - enabled: 1
+    path: Assets/Scenes/VirtualScenes/Virt_Suppliers.unity
+    guid: f938cb477fe444448927e817bd72372b
+  - enabled: 1
+    path: Assets/Scenes/ARScanInstructions.unity
+    guid: 5a30e5869fc92d44cabab12ee8bf3a36
+  - enabled: 1
+    path: Assets/Scenes/ARScan.unity
+    guid: a70948538336619429e9cd89edc58a73
+  - enabled: 1
+    path: Assets/Scenes/ARGame.unity
+    guid: 88fc9cd78e94f9749b062ded1959eb0e

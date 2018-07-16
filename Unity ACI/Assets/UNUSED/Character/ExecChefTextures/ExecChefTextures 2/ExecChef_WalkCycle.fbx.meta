@@ -1,0 +1,347 @@
+fileFormatVersion: 2
+guid: 1523bdc58631fb147b27c7889f275dab
+timeCreated: 1493950192
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: eyeroot
+    100004: forehead
+    100006: group11
+    100008: hip
+    100010: l_ankle
+    100012: l_elbow
+    100014: l_foot
+    100016: l_foot2
+    100018: l_index
+    100020: l_index_2
+    100022: l_index_3
+    100024: l_knee
+    100026: l_middle
+    100028: l_middle_2
+    100030: l_middle_3
+    100032: l_palm
+    100034: l_pinkie
+    100036: l_pinkie_2
+    100038: l_pinkie_3
+    100040: l_ring
+    100042: l_ring_2
+    100044: l_ring_3
+    100046: l_shoulder
+    100048: l_thigh
+    100050: l_thumb
+    100052: l_thumb_2
+    100054: l_toe
+    100056: l_upper_arm
+    100058: l_wrist
+    100060: mouth
+    100062: neck
+    100064: pasted__exec_chef
+    100066: r_ankle
+    100068: r_ankle2
+    100070: r_elbow
+    100072: r_foot
+    100074: r_index
+    100076: r_index_2
+    100078: r_index_3
+    100080: r_knee
+    100082: r_middre
+    100084: r_middre_2
+    100086: r_middre_3
+    100088: r_parm
+    100090: r_pinkie
+    100092: r_pinkie_2
+    100094: r_pinkie_3
+    100096: r_ring
+    100098: r_ring_2
+    100100: r_ring_3
+    100102: r_shoulder
+    100104: r_thigh
+    100106: r_thumb
+    100108: r_thumb_2
+    100110: r_toe
+    100112: r_upper_arm
+    100114: r_wrist
+    100116: spine_high
+    100118: spine_low
+    100120: spine_mid
+    400000: //RootNode
+    400002: eyeroot
+    400004: forehead
+    400006: group11
+    400008: hip
+    400010: l_ankle
+    400012: l_elbow
+    400014: l_foot
+    400016: l_foot2
+    400018: l_index
+    400020: l_index_2
+    400022: l_index_3
+    400024: l_knee
+    400026: l_middle
+    400028: l_middle_2
+    400030: l_middle_3
+    400032: l_palm
+    400034: l_pinkie
+    400036: l_pinkie_2
+    400038: l_pinkie_3
+    400040: l_ring
+    400042: l_ring_2
+    400044: l_ring_3
+    400046: l_shoulder
+    400048: l_thigh
+    400050: l_thumb
+    400052: l_thumb_2
+    400054: l_toe
+    400056: l_upper_arm
+    400058: l_wrist
+    400060: mouth
+    400062: neck
+    400064: pasted__exec_chef
+    400066: r_ankle
+    400068: r_ankle2
+    400070: r_elbow
+    400072: r_foot
+    400074: r_index
+    400076: r_index_2
+    400078: r_index_3
+    400080: r_knee
+    400082: r_middre
+    400084: r_middre_2
+    400086: r_middre_3
+    400088: r_parm
+    400090: r_pinkie
+    400092: r_pinkie_2
+    400094: r_pinkie_3
+    400096: r_ring
+    400098: r_ring_2
+    400100: r_ring_3
+    400102: r_shoulder
+    400104: r_thigh
+    400106: r_thumb
+    400108: r_thumb_2
+    400110: r_toe
+    400112: r_upper_arm
+    400114: r_wrist
+    400116: spine_high
+    400118: spine_low
+    400120: spine_mid
+    4300000: pasted__exec_chef
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: pasted__exec_chef
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 55
+      lastFrame: 101
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: group11
+        weight: 1
+      - path: group11/pasted__exec_chef
+        weight: 1
+      - path: hip
+        weight: 1
+      - path: hip/l_thigh
+        weight: 1
+      - path: hip/l_thigh/l_knee
+        weight: 1
+      - path: hip/l_thigh/l_knee/l_foot2
+        weight: 1
+      - path: hip/l_thigh/l_knee/l_foot2/l_ankle
+        weight: 1
+      - path: hip/l_thigh/l_knee/l_foot2/l_ankle/l_foot
+        weight: 1
+      - path: hip/l_thigh/l_knee/l_foot2/l_ankle/l_foot/l_toe
+        weight: 1
+      - path: hip/r_thigh
+        weight: 1
+      - path: hip/r_thigh/r_knee
+        weight: 1
+      - path: hip/r_thigh/r_knee/r_ankle2
+        weight: 1
+      - path: hip/r_thigh/r_knee/r_ankle2/r_ankle
+        weight: 1
+      - path: hip/r_thigh/r_knee/r_ankle2/r_ankle/r_foot
+        weight: 1
+      - path: hip/r_thigh/r_knee/r_ankle2/r_ankle/r_foot/r_toe
+        weight: 1
+      - path: hip/spine_low
+        weight: 1
+      - path: hip/spine_low/spine_mid
+        weight: 1
+      - path: hip/spine_low/spine_mid/spine_high
+        weight: 1
+      - path: hip/spine_low/spine_mid/spine_high/l_shoulder
+        weight: 1
+      - path: hip/spine_low/spine_mid/spine_high/l_shoulder/l_upper_arm
+        weight: 1
+      - path: hip/spine_low/spine_mid/spine_high/l_shoulder/l_upper_arm/l_elbow
+        weight: 1
+      - path: hip/spine_low/spine_mid/spine_high/l_shoulder/l_upper_arm/l_elbow/l_wrist
+        weight: 1
+      - path: hip/spine_low/spine_mid/spine_high/l_shoulder/l_upper_arm/l_elbow/l_wrist/l_palm
+        weight: 1
+      - path: hip/spine_low/spine_mid/spine_high/l_shoulder/l_upper_arm/l_elbow/l_wrist/l_palm/l_index
+        weight: 1
+      - path: hip/spine_low/spine_mid/spine_high/l_shoulder/l_upper_arm/l_elbow/l_wrist/l_palm/l_index/l_index_2
+        weight: 1
+      - path: hip/spine_low/spine_mid/spine_high/l_shoulder/l_upper_arm/l_elbow/l_wrist/l_palm/l_index/l_index_2/l_index_3
+        weight: 1
+      - path: hip/spine_low/spine_mid/spine_high/l_shoulder/l_upper_arm/l_elbow/l_wrist/l_palm/l_middle
+        weight: 1
+      - path: hip/spine_low/spine_mid/spine_high/l_shoulder/l_upper_arm/l_elbow/l_wrist/l_palm/l_middle/l_middle_2
+        weight: 1
+      - path: hip/spine_low/spine_mid/spine_high/l_shoulder/l_upper_arm/l_elbow/l_wrist/l_palm/l_middle/l_middle_2/l_middle_3
+        weight: 1
+      - path: hip/spine_low/spine_mid/spine_high/l_shoulder/l_upper_arm/l_elbow/l_wrist/l_palm/l_pinkie
+        weight: 1
+      - path: hip/spine_low/spine_mid/spine_high/l_shoulder/l_upper_arm/l_elbow/l_wrist/l_palm/l_pinkie/l_pinkie_2
+        weight: 1
+      - path: hip/spine_low/spine_mid/spine_high/l_shoulder/l_upper_arm/l_elbow/l_wrist/l_palm/l_pinkie/l_pinkie_2/l_pinkie_3
+        weight: 1
+      - path: hip/spine_low/spine_mid/spine_high/l_shoulder/l_upper_arm/l_elbow/l_wrist/l_palm/l_ring
+        weight: 1
+      - path: hip/spine_low/spine_mid/spine_high/l_shoulder/l_upper_arm/l_elbow/l_wrist/l_palm/l_ring/l_ring_2
+        weight: 1
+      - path: hip/spine_low/spine_mid/spine_high/l_shoulder/l_upper_arm/l_elbow/l_wrist/l_palm/l_ring/l_ring_2/l_ring_3
+        weight: 1
+      - path: hip/spine_low/spine_mid/spine_high/l_shoulder/l_upper_arm/l_elbow/l_wrist/l_palm/l_thumb
+        weight: 1
+      - path: hip/spine_low/spine_mid/spine_high/l_shoulder/l_upper_arm/l_elbow/l_wrist/l_palm/l_thumb/l_thumb_2
+        weight: 1
+      - path: hip/spine_low/spine_mid/spine_high/neck
+        weight: 1
+      - path: hip/spine_low/spine_mid/spine_high/neck/mouth
+        weight: 1
+      - path: hip/spine_low/spine_mid/spine_high/neck/mouth/eyeroot
+        weight: 1
+      - path: hip/spine_low/spine_mid/spine_high/neck/mouth/eyeroot/forehead
+        weight: 1
+      - path: hip/spine_low/spine_mid/spine_high/r_shoulder
+        weight: 1
+      - path: hip/spine_low/spine_mid/spine_high/r_shoulder/r_upper_arm
+        weight: 1
+      - path: hip/spine_low/spine_mid/spine_high/r_shoulder/r_upper_arm/r_elbow
+        weight: 1
+      - path: hip/spine_low/spine_mid/spine_high/r_shoulder/r_upper_arm/r_elbow/r_wrist
+        weight: 1
+      - path: hip/spine_low/spine_mid/spine_high/r_shoulder/r_upper_arm/r_elbow/r_wrist/r_parm
+        weight: 1
+      - path: hip/spine_low/spine_mid/spine_high/r_shoulder/r_upper_arm/r_elbow/r_wrist/r_parm/r_index
+        weight: 1
+      - path: hip/spine_low/spine_mid/spine_high/r_shoulder/r_upper_arm/r_elbow/r_wrist/r_parm/r_index/r_index_2
+        weight: 1
+      - path: hip/spine_low/spine_mid/spine_high/r_shoulder/r_upper_arm/r_elbow/r_wrist/r_parm/r_index/r_index_2/r_index_3
+        weight: 1
+      - path: hip/spine_low/spine_mid/spine_high/r_shoulder/r_upper_arm/r_elbow/r_wrist/r_parm/r_middre
+        weight: 1
+      - path: hip/spine_low/spine_mid/spine_high/r_shoulder/r_upper_arm/r_elbow/r_wrist/r_parm/r_middre/r_middre_2
+        weight: 1
+      - path: hip/spine_low/spine_mid/spine_high/r_shoulder/r_upper_arm/r_elbow/r_wrist/r_parm/r_middre/r_middre_2/r_middre_3
+        weight: 1
+      - path: hip/spine_low/spine_mid/spine_high/r_shoulder/r_upper_arm/r_elbow/r_wrist/r_parm/r_pinkie
+        weight: 1
+      - path: hip/spine_low/spine_mid/spine_high/r_shoulder/r_upper_arm/r_elbow/r_wrist/r_parm/r_pinkie/r_pinkie_2
+        weight: 1
+      - path: hip/spine_low/spine_mid/spine_high/r_shoulder/r_upper_arm/r_elbow/r_wrist/r_parm/r_pinkie/r_pinkie_2/r_pinkie_3
+        weight: 1
+      - path: hip/spine_low/spine_mid/spine_high/r_shoulder/r_upper_arm/r_elbow/r_wrist/r_parm/r_ring
+        weight: 1
+      - path: hip/spine_low/spine_mid/spine_high/r_shoulder/r_upper_arm/r_elbow/r_wrist/r_parm/r_ring/r_ring_2
+        weight: 1
+      - path: hip/spine_low/spine_mid/spine_high/r_shoulder/r_upper_arm/r_elbow/r_wrist/r_parm/r_ring/r_ring_2/r_ring_3
+        weight: 1
+      - path: hip/spine_low/spine_mid/spine_high/r_shoulder/r_upper_arm/r_elbow/r_wrist/r_parm/r_thumb
+        weight: 1
+      - path: hip/spine_low/spine_mid/spine_high/r_shoulder/r_upper_arm/r_elbow/r_wrist/r_parm/r_thumb/r_thumb_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 55
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

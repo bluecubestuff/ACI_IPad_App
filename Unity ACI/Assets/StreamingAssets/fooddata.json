@@ -1,0 +1,324 @@
+{
+"Items": [
+{
+  "foodID": "0",
+  "foodName": "Tomato A",
+  "foodRarity": "5",
+  "prefabLocation": "Tomato",
+  "foodType": 1,
+  "foodPlacement": 0
+},
+{
+  "foodID": "1",
+  "foodName": "Tomato B",
+  "foodRarity": "4",
+  "prefabLocation": "Tomato 1",
+  "foodType": 1,
+  "foodPlacement": 0
+},
+{
+  "foodID": "2",
+  "foodName": "Tomato C",
+  "foodRarity": "3",
+  "prefabLocation": "Tomato 2",
+  "foodType": 1,
+  "foodPlacement": 0
+},
+{
+  "foodID": "3",
+  "foodName": "Tomato D",
+  "foodRarity": "2",
+  "prefabLocation": "Tomato 3",
+  "foodType": 1,
+  "foodPlacement": 0
+},
+{
+  "foodID": "4",
+  "foodName": "Tomato E",
+  "foodRarity": "1",
+  "prefabLocation": "Tomato 3",
+  "foodType": 1,
+  "foodPlacement": 0
+},
+{
+  "foodID": "5",
+  "foodName": "Canned Food A",
+  "foodRarity": "5",
+  "prefabLocation": "Canned_Food",
+  "foodType": 0,
+  "foodPlacement": 0
+},
+{
+  "foodID": "6",
+  "foodName": "Canned Food B",
+  "foodRarity": "4",
+  "prefabLocation": "Canned_Food 1",
+  "foodType": 0,
+  "foodPlacement": 0
+},
+{
+  "foodID": "7",
+  "foodName": "Canned Food C",
+  "foodRarity": "3",
+  "prefabLocation": "Canned_Food 2",
+  "foodType": 0,
+  "foodPlacement": 0
+},
+{
+  "foodID": "8",
+  "foodName": "Canned Food D",
+  "foodRarity": "2",
+  "prefabLocation": "Canned_Food 3",
+  "foodType": 0,
+  "foodPlacement": 0
+},
+{
+  "foodID": "9",
+  "foodName": "Canned Food E",
+  "foodRarity": "1",
+  "prefabLocation": "Canned_Food 4",
+  "foodType": 0,
+  "foodPlacement": 0
+},
+{
+  "foodID": "10",
+  "foodName": "Steak A",
+  "foodRarity": "5",
+  "prefabLocation": "Steak 1",
+  "foodType": 2,
+  "foodPlacement": 1
+},
+{
+  "foodID": "11",
+  "foodName": "Steak B",
+  "foodRarity": "4",
+  "prefabLocation": "Steak 2",
+  "foodType": 2,
+  "foodPlacement": 1
+},
+{
+  "foodID": "12",
+  "foodName": "Steak C",
+  "foodRarity": "3",
+  "prefabLocation": "Steak 3",
+  "foodType": 2,
+  "foodPlacement": 1
+},
+{
+  "foodID": "13",
+  "foodName": "Steak D",
+  "foodRarity": "2",
+  "prefabLocation": "Steak 4",
+  "foodType": 2,
+  "foodPlacement": 1
+},
+{
+  "foodID": "14",
+  "foodName": "Steak E",
+  "foodRarity": "1",
+  "prefabLocation": "Steak 5",
+  "foodType": 2,
+  "foodPlacement": 1
+},
+{
+  "foodID": "15",
+  "foodName": "Chilli A",
+  "foodRarity": "5",
+  "prefabLocation": "Chilli 1",
+  "foodType": 1,
+  "foodPlacement": 0
+},
+{
+  "foodID": "16",
+  "foodName": "Chilli B",
+  "foodRarity": "4",
+  "prefabLocation": "Chilli 2",
+  "foodType": 1,
+  "foodPlacement": 0
+},
+{
+  "foodID": "17",
+  "foodName": "Chilli C",
+  "foodRarity": "3",
+  "prefabLocation": "Chilli 3",
+  "foodType": 1,
+  "foodPlacement": 0
+},
+{
+  "foodID": "18",
+  "foodName": "Chilli D",
+  "foodRarity": "2",
+  "prefabLocation": "Chilli 4",
+  "foodType": 1,
+  "foodPlacement": 0
+},
+{
+  "foodID": "19",
+  "foodName": "Chilli E",
+  "foodRarity": "1",
+  "prefabLocation": "Chilli 4",
+  "foodType": 1,
+  "foodPlacement": 0
+},
+{
+  "foodID": "20",
+  "foodName": "Chicken A",
+  "foodRarity": "5",
+  "prefabLocation": "Chicken 1",
+  "foodType": 2,
+  "foodPlacement":1
+},
+{
+  "foodID": "21",
+  "foodName": "Chicken B",
+  "foodRarity": "4",
+  "prefabLocation": "Chicken 1",
+  "foodType": 2,
+  "foodPlacement":1
+},
+{
+  "foodID": "22",
+  "foodName": "Chicken C",
+  "foodRarity": "3",
+  "prefabLocation": "Chicken 2",
+  "foodType": 2,
+  "foodPlacement":1
+},
+{
+  "foodID": "23",
+  "foodName": "Chicken D",
+  "foodRarity": "2",
+  "prefabLocation": "Chicken 3",
+  "foodType": 2,
+  "foodPlacement":1
+},
+{
+  "foodID": "24",
+  "foodName": "Chicken E",
+  "foodRarity": "1",
+  "prefabLocation": "Chicken 4",
+  "foodType": 2,
+  "foodPlacement":1
+},
+{
+  "foodID": "25",
+  "foodName": "Fish A",
+  "foodRarity": "5",
+  "prefabLocation": "Fish 1",
+  "foodType": 2,
+  "foodPlacement":1
+},
+{
+  "foodID": "26",
+  "foodName": "Fish B",
+  "foodRarity": "4",
+  "prefabLocation": "Fish 2",
+  "foodType": 2,
+  "foodPlacement":1
+},
+{
+  "foodID": "27",
+  "foodName": "Fish C",
+  "foodRarity": "3",
+  "prefabLocation": "Fish 3",
+  "foodType": 2,
+  "foodPlacement":1
+},
+{
+  "foodID": "28",
+  "foodName": "Fish D",
+  "foodRarity": "2",
+  "prefabLocation": "Fish 4",
+  "foodType": 2,
+  "foodPlacement":1
+},
+{
+  "foodID": "29",
+  "foodName": "Fish E",
+  "foodRarity": "1",
+  "prefabLocation": "Fish 5",
+  "foodType": 2,
+  "foodPlacement":1
+},
+{
+  "foodID": "30",
+  "foodName": "Crab A",
+  "foodRarity": "5",
+  "prefabLocation": "Crab 1",
+  "foodType": 2,
+  "foodPlacement":1
+},
+{
+  "foodID": "31",
+  "foodName": "Crab B",
+  "foodRarity": "4",
+  "prefabLocation": "Crab 2",
+  "foodType": 2,
+  "foodPlacement":1
+},
+{
+  "foodID": "32",
+  "foodName": "Crab C",
+  "foodRarity": "3",
+  "prefabLocation": "Crab 3",
+  "foodType": 2,
+  "foodPlacement":1
+},
+{
+  "foodID": "33",
+  "foodName": "Crab D",
+  "foodRarity": "2",
+  "prefabLocation": "Crab 4",
+  "foodType": 2,
+  "foodPlacement":1
+},
+{
+  "foodID": "34",
+  "foodName": "Crab E",
+  "foodRarity": "1",
+  "prefabLocation": "Crab 5",
+  "foodType": 2,
+  "foodPlacement":1
+},
+{
+  "foodID": "35",
+  "foodName": "Carrot A",
+  "foodRarity": "5",
+  "prefabLocation": "Carrot 1",
+  "foodType": 1,
+  "foodPlacement": 0
+},
+{
+  "foodID": "36",
+  "foodName": "Carrot B",
+  "foodRarity": "4",
+  "prefabLocation": "Carrot 2",
+  "foodType": 1,
+  "foodPlacement": 0
+},
+{
+  "foodID": "37",
+  "foodName": "Carrot C",
+  "foodRarity": "3",
+  "prefabLocation": "Carrot 3",
+  "foodType": 1,
+  "foodPlacement": 0
+},
+{
+  "foodID": "38",
+  "foodName": "Carrot D",
+  "foodRarity": "2",
+  "prefabLocation": "Carrot 4",
+  "foodType": 1,
+  "foodPlacement": 0
+},
+{
+  "foodID": "39",
+  "foodName": "Carrot E",
+  "foodRarity": "1",
+  "prefabLocation": "Carrot 4",
+  "foodType": 1,
+  "foodPlacement": 0
+}
+]
+}

@@ -1,0 +1,394 @@
+fileFormatVersion: 2
+guid: 667bf58a45d52f24c8c10a1f8ff6d1f7
+timeCreated: 1495013854
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Apron
+    100002: Apron2
+    100004: Apron3
+    100006: Bust
+    100008: Core_Joint
+    100010: //RootNode
+    100012: Hair
+    100014: Head
+    100016: L_Finger1_1
+    100018: L_Finger1_2
+    100020: L_Finger1_Tip
+    100022: L_Finger2_1
+    100024: L_Finger2_2
+    100026: L_Finger2_3
+    100028: L_Finger2_Tip
+    100030: L_Finger3_1
+    100032: L_Finger3_2
+    100034: L_Finger3_3
+    100036: L_Finger3_Tip
+    100038: L_Finger4_1
+    100040: L_Finger4_2
+    100042: L_Finger4_3
+    100044: L_Finger4_Tip
+    100046: L_Finger5_1
+    100048: L_Finger5_2
+    100050: L_Finger5_3
+    100052: L_Finger5_Tip
+    100054: Left_Arm
+    100056: Left_Arm2
+    100058: Left_Foot
+    100060: Left_Foot2
+    100062: Left_Foot3
+    100064: Left_Hand
+    100066: Left_Leg
+    100068: Left_Leg2
+    100070: Left_Toe
+    100072: pCylinder27
+    100074: plate
+    100076: polySurface1
+    100078: polySurface21
+    100080: polySurface29
+    100082: polySurface32
+    100084: R_Finger1_1
+    100086: R_Finger1_2
+    100088: R_Finger1_Tip
+    100090: R_Finger2_1
+    100092: R_Finger2_2
+    100094: R_Finger2_3
+    100096: R_Finger2_Tip
+    100098: R_Finger3_1
+    100100: R_Finger3_2
+    100102: R_Finger3_3
+    100104: R_Finger3_Tip
+    100106: R_Finger4_1
+    100108: R_Finger4_2
+    100110: R_Finger4_3
+    100112: R_Finger4_Tip
+    100114: R_Finger5_1
+    100116: R_Finger5_2
+    100118: R_Finger5_3
+    100120: R_Finger5_Tip
+    100122: Right_Arm
+    100124: Right_Arm2
+    100126: Right_Foot
+    100128: Right_Foot2
+    100130: Right_Foot3
+    100132: Right_Hand
+    100134: Right_Leg
+    100136: Right_Leg2
+    100138: Right_Toe
+    100140: Shoulders_and_neck
+    100142: Upper_Body
+    400000: Apron
+    400002: Apron2
+    400004: Apron3
+    400006: Bust
+    400008: Core_Joint
+    400010: //RootNode
+    400012: Hair
+    400014: Head
+    400016: L_Finger1_1
+    400018: L_Finger1_2
+    400020: L_Finger1_Tip
+    400022: L_Finger2_1
+    400024: L_Finger2_2
+    400026: L_Finger2_3
+    400028: L_Finger2_Tip
+    400030: L_Finger3_1
+    400032: L_Finger3_2
+    400034: L_Finger3_3
+    400036: L_Finger3_Tip
+    400038: L_Finger4_1
+    400040: L_Finger4_2
+    400042: L_Finger4_3
+    400044: L_Finger4_Tip
+    400046: L_Finger5_1
+    400048: L_Finger5_2
+    400050: L_Finger5_3
+    400052: L_Finger5_Tip
+    400054: Left_Arm
+    400056: Left_Arm2
+    400058: Left_Foot
+    400060: Left_Foot2
+    400062: Left_Foot3
+    400064: Left_Hand
+    400066: Left_Leg
+    400068: Left_Leg2
+    400070: Left_Toe
+    400072: pCylinder27
+    400074: plate
+    400076: polySurface1
+    400078: polySurface21
+    400080: polySurface29
+    400082: polySurface32
+    400084: R_Finger1_1
+    400086: R_Finger1_2
+    400088: R_Finger1_Tip
+    400090: R_Finger2_1
+    400092: R_Finger2_2
+    400094: R_Finger2_3
+    400096: R_Finger2_Tip
+    400098: R_Finger3_1
+    400100: R_Finger3_2
+    400102: R_Finger3_3
+    400104: R_Finger3_Tip
+    400106: R_Finger4_1
+    400108: R_Finger4_2
+    400110: R_Finger4_3
+    400112: R_Finger4_Tip
+    400114: R_Finger5_1
+    400116: R_Finger5_2
+    400118: R_Finger5_3
+    400120: R_Finger5_Tip
+    400122: Right_Arm
+    400124: Right_Arm2
+    400126: Right_Foot
+    400128: Right_Foot2
+    400130: Right_Foot3
+    400132: Right_Hand
+    400134: Right_Leg
+    400136: Right_Leg2
+    400138: Right_Toe
+    400140: Shoulders_and_neck
+    400142: Upper_Body
+    2300000: plate
+    3300000: plate
+    4300000: polySurface32
+    4300002: plate
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: polySurface32
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 240
+      lastFrame: 300
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Core_Joint
+        weight: 1
+      - path: Core_Joint/Apron
+        weight: 1
+      - path: Core_Joint/Apron/Apron2
+        weight: 1
+      - path: Core_Joint/Apron/Apron2/Apron3
+        weight: 1
+      - path: Core_Joint/Left_Leg
+        weight: 1
+      - path: Core_Joint/Left_Leg/Left_Leg2
+        weight: 1
+      - path: Core_Joint/Left_Leg/Left_Leg2/Left_Foot
+        weight: 1
+      - path: Core_Joint/Left_Leg/Left_Leg2/Left_Foot/Left_Foot2
+        weight: 1
+      - path: Core_Joint/Left_Leg/Left_Leg2/Left_Foot/Left_Foot2/Left_Foot3
+        weight: 1
+      - path: Core_Joint/Left_Leg/Left_Leg2/Left_Foot/Left_Foot2/Left_Foot3/Left_Toe
+        weight: 1
+      - path: Core_Joint/Right_Leg
+        weight: 1
+      - path: Core_Joint/Right_Leg/Right_Leg2
+        weight: 1
+      - path: Core_Joint/Right_Leg/Right_Leg2/Right_Foot
+        weight: 1
+      - path: Core_Joint/Right_Leg/Right_Leg2/Right_Foot/Right_Foot2
+        weight: 1
+      - path: Core_Joint/Right_Leg/Right_Leg2/Right_Foot/Right_Foot2/Right_Foot3
+        weight: 1
+      - path: Core_Joint/Right_Leg/Right_Leg2/Right_Foot/Right_Foot2/Right_Foot3/Right_Toe
+        weight: 1
+      - path: Core_Joint/Upper_Body
+        weight: 1
+      - path: Core_Joint/Upper_Body/Bust
+        weight: 1
+      - path: Core_Joint/Upper_Body/Bust/Shoulders_and_neck
+        weight: 1
+      - path: Core_Joint/Upper_Body/Bust/Shoulders_and_neck/Head
+        weight: 1
+      - path: Core_Joint/Upper_Body/Bust/Shoulders_and_neck/Head/Hair
+        weight: 1
+      - path: Core_Joint/Upper_Body/Bust/Shoulders_and_neck/Left_Arm
+        weight: 1
+      - path: Core_Joint/Upper_Body/Bust/Shoulders_and_neck/Left_Arm/Left_Arm2
+        weight: 1
+      - path: Core_Joint/Upper_Body/Bust/Shoulders_and_neck/Left_Arm/Left_Arm2/Left_Hand
+        weight: 1
+      - path: Core_Joint/Upper_Body/Bust/Shoulders_and_neck/Left_Arm/Left_Arm2/Left_Hand/L_Finger1_1
+        weight: 1
+      - path: Core_Joint/Upper_Body/Bust/Shoulders_and_neck/Left_Arm/Left_Arm2/Left_Hand/L_Finger1_1/L_Finger1_2
+        weight: 1
+      - path: Core_Joint/Upper_Body/Bust/Shoulders_and_neck/Left_Arm/Left_Arm2/Left_Hand/L_Finger1_1/L_Finger1_2/L_Finger1_Tip
+        weight: 1
+      - path: Core_Joint/Upper_Body/Bust/Shoulders_and_neck/Left_Arm/Left_Arm2/Left_Hand/L_Finger2_1
+        weight: 1
+      - path: Core_Joint/Upper_Body/Bust/Shoulders_and_neck/Left_Arm/Left_Arm2/Left_Hand/L_Finger2_1/L_Finger2_2
+        weight: 1
+      - path: Core_Joint/Upper_Body/Bust/Shoulders_and_neck/Left_Arm/Left_Arm2/Left_Hand/L_Finger2_1/L_Finger2_2/L_Finger2_3
+        weight: 1
+      - path: Core_Joint/Upper_Body/Bust/Shoulders_and_neck/Left_Arm/Left_Arm2/Left_Hand/L_Finger2_1/L_Finger2_2/L_Finger2_3/L_Finger2_Tip
+        weight: 1
+      - path: Core_Joint/Upper_Body/Bust/Shoulders_and_neck/Left_Arm/Left_Arm2/Left_Hand/L_Finger3_1
+        weight: 1
+      - path: Core_Joint/Upper_Body/Bust/Shoulders_and_neck/Left_Arm/Left_Arm2/Left_Hand/L_Finger3_1/L_Finger3_2
+        weight: 1
+      - path: Core_Joint/Upper_Body/Bust/Shoulders_and_neck/Left_Arm/Left_Arm2/Left_Hand/L_Finger3_1/L_Finger3_2/L_Finger3_3
+        weight: 1
+      - path: Core_Joint/Upper_Body/Bust/Shoulders_and_neck/Left_Arm/Left_Arm2/Left_Hand/L_Finger3_1/L_Finger3_2/L_Finger3_3/L_Finger3_Tip
+        weight: 1
+      - path: Core_Joint/Upper_Body/Bust/Shoulders_and_neck/Left_Arm/Left_Arm2/Left_Hand/L_Finger4_1
+        weight: 1
+      - path: Core_Joint/Upper_Body/Bust/Shoulders_and_neck/Left_Arm/Left_Arm2/Left_Hand/L_Finger4_1/L_Finger4_2
+        weight: 1
+      - path: Core_Joint/Upper_Body/Bust/Shoulders_and_neck/Left_Arm/Left_Arm2/Left_Hand/L_Finger4_1/L_Finger4_2/L_Finger4_3
+        weight: 1
+      - path: Core_Joint/Upper_Body/Bust/Shoulders_and_neck/Left_Arm/Left_Arm2/Left_Hand/L_Finger4_1/L_Finger4_2/L_Finger4_3/L_Finger4_Tip
+        weight: 1
+      - path: Core_Joint/Upper_Body/Bust/Shoulders_and_neck/Left_Arm/Left_Arm2/Left_Hand/L_Finger5_1
+        weight: 1
+      - path: Core_Joint/Upper_Body/Bust/Shoulders_and_neck/Left_Arm/Left_Arm2/Left_Hand/L_Finger5_1/L_Finger5_2
+        weight: 1
+      - path: Core_Joint/Upper_Body/Bust/Shoulders_and_neck/Left_Arm/Left_Arm2/Left_Hand/L_Finger5_1/L_Finger5_2/L_Finger5_3
+        weight: 1
+      - path: Core_Joint/Upper_Body/Bust/Shoulders_and_neck/Left_Arm/Left_Arm2/Left_Hand/L_Finger5_1/L_Finger5_2/L_Finger5_3/L_Finger5_Tip
+        weight: 1
+      - path: Core_Joint/Upper_Body/Bust/Shoulders_and_neck/Right_Arm
+        weight: 1
+      - path: Core_Joint/Upper_Body/Bust/Shoulders_and_neck/Right_Arm/Right_Arm2
+        weight: 1
+      - path: Core_Joint/Upper_Body/Bust/Shoulders_and_neck/Right_Arm/Right_Arm2/Right_Hand
+        weight: 1
+      - path: Core_Joint/Upper_Body/Bust/Shoulders_and_neck/Right_Arm/Right_Arm2/Right_Hand/R_Finger1_1
+        weight: 1
+      - path: Core_Joint/Upper_Body/Bust/Shoulders_and_neck/Right_Arm/Right_Arm2/Right_Hand/R_Finger1_1/R_Finger1_2
+        weight: 1
+      - path: Core_Joint/Upper_Body/Bust/Shoulders_and_neck/Right_Arm/Right_Arm2/Right_Hand/R_Finger1_1/R_Finger1_2/R_Finger1_Tip
+        weight: 1
+      - path: Core_Joint/Upper_Body/Bust/Shoulders_and_neck/Right_Arm/Right_Arm2/Right_Hand/R_Finger2_1
+        weight: 1
+      - path: Core_Joint/Upper_Body/Bust/Shoulders_and_neck/Right_Arm/Right_Arm2/Right_Hand/R_Finger2_1/R_Finger2_2
+        weight: 1
+      - path: Core_Joint/Upper_Body/Bust/Shoulders_and_neck/Right_Arm/Right_Arm2/Right_Hand/R_Finger2_1/R_Finger2_2/R_Finger2_3
+        weight: 1
+      - path: Core_Joint/Upper_Body/Bust/Shoulders_and_neck/Right_Arm/Right_Arm2/Right_Hand/R_Finger2_1/R_Finger2_2/R_Finger2_3/R_Finger2_Tip
+        weight: 1
+      - path: Core_Joint/Upper_Body/Bust/Shoulders_and_neck/Right_Arm/Right_Arm2/Right_Hand/R_Finger3_1
+        weight: 1
+      - path: Core_Joint/Upper_Body/Bust/Shoulders_and_neck/Right_Arm/Right_Arm2/Right_Hand/R_Finger3_1/R_Finger3_2
+        weight: 1
+      - path: Core_Joint/Upper_Body/Bust/Shoulders_and_neck/Right_Arm/Right_Arm2/Right_Hand/R_Finger3_1/R_Finger3_2/R_Finger3_3
+        weight: 1
+      - path: Core_Joint/Upper_Body/Bust/Shoulders_and_neck/Right_Arm/Right_Arm2/Right_Hand/R_Finger3_1/R_Finger3_2/R_Finger3_3/R_Finger3_Tip
+        weight: 1
+      - path: Core_Joint/Upper_Body/Bust/Shoulders_and_neck/Right_Arm/Right_Arm2/Right_Hand/R_Finger4_1
+        weight: 1
+      - path: Core_Joint/Upper_Body/Bust/Shoulders_and_neck/Right_Arm/Right_Arm2/Right_Hand/R_Finger4_1/R_Finger4_2
+        weight: 1
+      - path: Core_Joint/Upper_Body/Bust/Shoulders_and_neck/Right_Arm/Right_Arm2/Right_Hand/R_Finger4_1/R_Finger4_2/R_Finger4_3
+        weight: 1
+      - path: Core_Joint/Upper_Body/Bust/Shoulders_and_neck/Right_Arm/Right_Arm2/Right_Hand/R_Finger4_1/R_Finger4_2/R_Finger4_3/R_Finger4_Tip
+        weight: 1
+      - path: Core_Joint/Upper_Body/Bust/Shoulders_and_neck/Right_Arm/Right_Arm2/Right_Hand/R_Finger5_1
+        weight: 1
+      - path: Core_Joint/Upper_Body/Bust/Shoulders_and_neck/Right_Arm/Right_Arm2/Right_Hand/R_Finger5_1/R_Finger5_2
+        weight: 1
+      - path: Core_Joint/Upper_Body/Bust/Shoulders_and_neck/Right_Arm/Right_Arm2/Right_Hand/R_Finger5_1/R_Finger5_2/R_Finger5_3
+        weight: 1
+      - path: Core_Joint/Upper_Body/Bust/Shoulders_and_neck/Right_Arm/Right_Arm2/Right_Hand/R_Finger5_1/R_Finger5_2/R_Finger5_3/R_Finger5_Tip
+        weight: 1
+      - path: pCylinder27
+        weight: 1
+      - path: plate
+        weight: 1
+      - path: polySurface1
+        weight: 1
+      - path: polySurface21
+        weight: 1
+      - path: polySurface29
+        weight: 1
+      - path: polySurface32
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

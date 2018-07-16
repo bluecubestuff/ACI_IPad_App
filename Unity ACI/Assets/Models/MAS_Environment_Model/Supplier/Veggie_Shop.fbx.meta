@@ -1,0 +1,307 @@
+fileFormatVersion: 2
+guid: 97e9a55a93fb6bd43bb605e471532913
+timeCreated: 1499141262
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: pCube31
+    100002: polySurface10
+    100004: polySurface11
+    100006: polySurface5
+    100008: pPlane45
+    100010: pPlane49
+    100012: pPlane50
+    100014: pPlane51
+    100016: transform82
+    100018: transform83
+    100020: transform84
+    100022: transform85
+    100024: transform86
+    100026: transform87
+    100028: transform88
+    100030: transform89
+    100032: transform90
+    100034: transform91
+    100036: //RootNode
+    100038: Veggie_Shop_Counter
+    100040: Veggie_Shop_Crate
+    100042: Veggie_Shop_Crate 1
+    100044: Veggie_Shop_Crate1
+    100046: Veggie_Shop_Crate10
+    100048: Veggie_Shop_Crate11
+    100050: Veggie_Shop_Crate12
+    100052: Veggie_Shop_Crate13
+    100054: Veggie_Shop_Crate14
+    100056: Veggie_Shop_Crate15
+    100058: Veggie_Shop_Crate16
+    100060: Veggie_Shop_Crate17
+    100062: Veggie_Shop_Crate18
+    100064: Veggie_Shop_Crate19
+    100066: Veggie_Shop_Crate2
+    100068: Veggie_Shop_Crate20
+    100070: Veggie_Shop_Crate21
+    100072: Veggie_Shop_Crate22
+    100074: Veggie_Shop_Crate23
+    100076: Veggie_Shop_Crate24
+    100078: Veggie_Shop_Crate25
+    100080: Veggie_Shop_Crate26
+    100082: Veggie_Shop_Crate27
+    100084: Veggie_Shop_Crate28
+    100086: Veggie_Shop_Crate29
+    100088: Veggie_Shop_Crate3
+    100090: Veggie_Shop_Crate30
+    100092: Veggie_Shop_Crate4
+    100094: Veggie_Shop_Crate5
+    100096: Veggie_Shop_Crate6
+    100098: Veggie_Shop_Crate7
+    100100: Veggie_Shop_Crate8
+    100102: Veggie_Shop_Crate9
+    100104: Veggie_Shop_Crate_Table
+    100106: Veggie_Shop_Crate_Table 1
+    100108: Veggie_Shop_Crate_Table1
+    100110: Veggie_Shop_Crate_Table2
+    100112: Veggie_Shop_Crate_Table2 1
+    100114: Veggie_Shop_Floor
+    100116: Veggie_Shop_Inner_Wall
+    100118: Veggie_Shop_Outer_Wall
+    100120: Veggie_Shop_Pillar
+    100122: Veggie_Shop_Pillar1
+    400000: pCube31
+    400002: polySurface10
+    400004: polySurface11
+    400006: polySurface5
+    400008: pPlane45
+    400010: pPlane49
+    400012: pPlane50
+    400014: pPlane51
+    400016: transform82
+    400018: transform83
+    400020: transform84
+    400022: transform85
+    400024: transform86
+    400026: transform87
+    400028: transform88
+    400030: transform89
+    400032: transform90
+    400034: transform91
+    400036: //RootNode
+    400038: Veggie_Shop_Counter
+    400040: Veggie_Shop_Crate
+    400042: Veggie_Shop_Crate 1
+    400044: Veggie_Shop_Crate1
+    400046: Veggie_Shop_Crate10
+    400048: Veggie_Shop_Crate11
+    400050: Veggie_Shop_Crate12
+    400052: Veggie_Shop_Crate13
+    400054: Veggie_Shop_Crate14
+    400056: Veggie_Shop_Crate15
+    400058: Veggie_Shop_Crate16
+    400060: Veggie_Shop_Crate17
+    400062: Veggie_Shop_Crate18
+    400064: Veggie_Shop_Crate19
+    400066: Veggie_Shop_Crate2
+    400068: Veggie_Shop_Crate20
+    400070: Veggie_Shop_Crate21
+    400072: Veggie_Shop_Crate22
+    400074: Veggie_Shop_Crate23
+    400076: Veggie_Shop_Crate24
+    400078: Veggie_Shop_Crate25
+    400080: Veggie_Shop_Crate26
+    400082: Veggie_Shop_Crate27
+    400084: Veggie_Shop_Crate28
+    400086: Veggie_Shop_Crate29
+    400088: Veggie_Shop_Crate3
+    400090: Veggie_Shop_Crate30
+    400092: Veggie_Shop_Crate4
+    400094: Veggie_Shop_Crate5
+    400096: Veggie_Shop_Crate6
+    400098: Veggie_Shop_Crate7
+    400100: Veggie_Shop_Crate8
+    400102: Veggie_Shop_Crate9
+    400104: Veggie_Shop_Crate_Table
+    400106: Veggie_Shop_Crate_Table 1
+    400108: Veggie_Shop_Crate_Table1
+    400110: Veggie_Shop_Crate_Table2
+    400112: Veggie_Shop_Crate_Table2 1
+    400114: Veggie_Shop_Floor
+    400116: Veggie_Shop_Inner_Wall
+    400118: Veggie_Shop_Outer_Wall
+    400120: Veggie_Shop_Pillar
+    400122: Veggie_Shop_Pillar1
+    2300000: pCube31
+    2300002: pPlane49
+    2300004: pPlane50
+    2300006: pPlane51
+    2300008: Veggie_Shop_Counter
+    2300010: Veggie_Shop_Crate
+    2300012: Veggie_Shop_Crate 1
+    2300014: Veggie_Shop_Crate1
+    2300016: Veggie_Shop_Crate10
+    2300018: Veggie_Shop_Crate11
+    2300020: Veggie_Shop_Crate12
+    2300022: Veggie_Shop_Crate13
+    2300024: Veggie_Shop_Crate14
+    2300026: Veggie_Shop_Crate15
+    2300028: Veggie_Shop_Crate2
+    2300030: Veggie_Shop_Crate24
+    2300032: Veggie_Shop_Crate25
+    2300034: Veggie_Shop_Crate26
+    2300036: Veggie_Shop_Crate27
+    2300038: Veggie_Shop_Crate28
+    2300040: Veggie_Shop_Crate29
+    2300042: Veggie_Shop_Crate3
+    2300044: Veggie_Shop_Crate30
+    2300046: Veggie_Shop_Crate4
+    2300048: Veggie_Shop_Crate5
+    2300050: Veggie_Shop_Crate6
+    2300052: Veggie_Shop_Crate7
+    2300054: Veggie_Shop_Crate8
+    2300056: Veggie_Shop_Crate9
+    2300058: Veggie_Shop_Crate_Table
+    2300060: Veggie_Shop_Crate_Table 1
+    2300062: Veggie_Shop_Crate_Table1
+    2300064: Veggie_Shop_Floor
+    2300066: Veggie_Shop_Inner_Wall
+    2300068: Veggie_Shop_Outer_Wall
+    2300070: Veggie_Shop_Pillar
+    2300072: Veggie_Shop_Pillar1
+    3300000: pCube31
+    3300002: pPlane49
+    3300004: pPlane50
+    3300006: pPlane51
+    3300008: Veggie_Shop_Counter
+    3300010: Veggie_Shop_Crate
+    3300012: Veggie_Shop_Crate 1
+    3300014: Veggie_Shop_Crate1
+    3300016: Veggie_Shop_Crate10
+    3300018: Veggie_Shop_Crate11
+    3300020: Veggie_Shop_Crate12
+    3300022: Veggie_Shop_Crate13
+    3300024: Veggie_Shop_Crate14
+    3300026: Veggie_Shop_Crate15
+    3300028: Veggie_Shop_Crate2
+    3300030: Veggie_Shop_Crate24
+    3300032: Veggie_Shop_Crate25
+    3300034: Veggie_Shop_Crate26
+    3300036: Veggie_Shop_Crate27
+    3300038: Veggie_Shop_Crate28
+    3300040: Veggie_Shop_Crate29
+    3300042: Veggie_Shop_Crate3
+    3300044: Veggie_Shop_Crate30
+    3300046: Veggie_Shop_Crate4
+    3300048: Veggie_Shop_Crate5
+    3300050: Veggie_Shop_Crate6
+    3300052: Veggie_Shop_Crate7
+    3300054: Veggie_Shop_Crate8
+    3300056: Veggie_Shop_Crate9
+    3300058: Veggie_Shop_Crate_Table
+    3300060: Veggie_Shop_Crate_Table 1
+    3300062: Veggie_Shop_Crate_Table1
+    3300064: Veggie_Shop_Floor
+    3300066: Veggie_Shop_Inner_Wall
+    3300068: Veggie_Shop_Outer_Wall
+    3300070: Veggie_Shop_Pillar
+    3300072: Veggie_Shop_Pillar1
+    4300000: Veggie_Shop_Floor
+    4300002: Veggie_Shop_Inner_Wall
+    4300004: Veggie_Shop_Outer_Wall
+    4300006: Veggie_Shop_Crate_Table
+    4300008: Veggie_Shop_Crate
+    4300010: Veggie_Shop_Crate1
+    4300012: Veggie_Shop_Crate2
+    4300014: Veggie_Shop_Crate3
+    4300016: Veggie_Shop_Crate6
+    4300018: Veggie_Shop_Crate7
+    4300020: Veggie_Shop_Crate5
+    4300022: Veggie_Shop_Crate4
+    4300024: Veggie_Shop_Crate_Table1
+    4300026: Veggie_Shop_Crate8
+    4300028: Veggie_Shop_Crate9
+    4300030: Veggie_Shop_Crate10
+    4300032: Veggie_Shop_Crate11
+    4300034: Veggie_Shop_Crate12
+    4300036: Veggie_Shop_Crate13
+    4300038: Veggie_Shop_Crate14
+    4300040: Veggie_Shop_Crate15
+    4300042: Veggie_Shop_Pillar1
+    4300044: Veggie_Shop_Pillar
+    4300046: Veggie_Shop_Counter
+    4300048: Veggie_Shop_Crate_Table
+    4300050: Veggie_Shop_Crate25
+    4300052: Veggie_Shop_Crate27
+    4300054: Veggie_Shop_Crate24
+    4300056: Veggie_Shop_Crate28
+    4300058: Veggie_Shop_Crate26
+    4300060: Veggie_Shop_Crate30
+    4300062: Veggie_Shop_Crate29
+    4300064: Veggie_Shop_Crate
+    4300066: pPlane49
+    4300068: pCube31
+    4300070: pPlane50
+    4300072: pPlane51
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

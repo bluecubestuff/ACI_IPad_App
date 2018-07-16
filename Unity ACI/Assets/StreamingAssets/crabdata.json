@@ -1,0 +1,28 @@
+{
+"Items": [
+{
+  "ID": "1",
+  "Name": "Cloth",
+  "Unlocked": false,
+  "cleanType": 0,
+  "imageSource": "blank",
+  "prefabLocation": "test"
+},
+{
+  "ID": "2",
+  "Name": "Mop",
+  "Unlocked": false,
+  "cleanType": 10,
+  "imageSource": "blank",
+  "prefabLocation": "test2"
+},
+{
+  "ID": "3",
+  "Name": "Broom",
+  "Unlocked": false,
+  "cleanType": 6,
+  "imageSource": "blank",
+  "prefabLocation": "test3"
+}
+]
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="Sink" size="10.000000 10.976562" />
+    <ImageTarget name="WokStation" size="10.000000 10.976562" />
+    <ImageTarget name="StoveArea" size="10.000000 10.976562" />
+    <ImageTarget name="StationChiller" size="10.000000 10.976562" />
+    <ImageTarget name="TrashArea" size="10.000000 10.976562" />
+    <ImageTarget name="PreparationStation" size="10.000000 10.976562" />
+    <ImageTarget name="LaundryRoom" size="10.000000 10.976562" />
+    <ImageTarget name="FloorArea" size="10.000000 10.976562" />
+  </Tracking>
+</QCARConfig>

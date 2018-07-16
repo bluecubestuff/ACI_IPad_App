@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ARCleanFloorDrainsLogic">
+    <Position X="22.25" Y="5.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="ARCleanFloorDrainsLogic.Progress" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\ARClean\GameLogic\ARCleanFloorDrainsLogic.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>MAQAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAEAAAIA=</HashCode>
+      <FileName>Assets\Scripts\ARClean\GameLogic\ARCleanFloorDrainsLogic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ARCleanModeLogic">
+    <Position X="22.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAEAAAEBAAAAAAAAAABAAAAAAAAAgAAAAEAAA=</HashCode>
+      <FileName>Assets\Scripts\ARClean\GameLogic\ARCleanModeLogic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ARCleanPrepAreaLogic">
+    <Position X="25.75" Y="5.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="ARCleanPrepAreaLogic.Progress" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\ARClean\GameLogic\ARCleanPrepAreaLogic.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>EAQAAAAAAAAAAAAAAAAIAAAAAAAABAAAAAAAAEgAAAA=</HashCode>
+      <FileName>Assets\Scripts\ARClean\GameLogic\ARCleanPrepAreaLogic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ARCleanSinkLogic">
+    <Position X="29.25" Y="5.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="ARCleanSinkLogic.Progress" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\ARClean\GameLogic\ARCleanSinkLogic.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>MAQAAAAAAQACAAAAIAAIAAAAAAAAAAAEEAAAAEgAAAA=</HashCode>
+      <FileName>Assets\Scripts\ARClean\GameLogic\ARCleanSinkLogic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ARCleanStoveLogic">
+    <Position X="31" Y="5.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="ARCleanStoveLogic.Progress" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\ARClean\GameLogic\ARCleanStoveLogic.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>MAQAAAAAAQACAAAAAAAIAAAAAAAAAAAEAAAAAEwAAIA=</HashCode>
+      <FileName>Assets\Scripts\ARClean\GameLogic\ARCleanStoveLogic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ARCleanWokAreaLogic">
+    <Position X="24" Y="5.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="ARCleanWokAreaLogic.Progress" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\ARClean\GameLogic\ARCleanWokAreaLogic.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>EAQAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAEgAAIA=</HashCode>
+      <FileName>Assets\Scripts\ARClean\GameLogic\ARCleanWokAreaLogic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ARCleanWokPotsPansLogic">
+    <Position X="27.5" Y="5.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="ARCleanWokPotsPansLogic.Progress" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\ARClean\GameLogic\ARCleanWokPansPotsLogic.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>MAQAAAAAAQACAAAAAAAAAAAAAAAAAAAEEAAEAFkAAAA=</HashCode>
+      <FileName>Assets\Scripts\ARClean\GameLogic\ARCleanWokPansPotsLogic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ToolUIGenerator">
+    <Position X="48.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAACAAAAAAAAAAAAAAAAAQBAAAAAAAQQAACAQ=</HashCode>
+      <FileName>Assets\Scripts\ARClean\UIScroller\ToolUIGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ToolUIQuickAccess">
+    <Position X="50.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AggAAACAAAAABgAAEQAAiAAAAAAAIAAAABAAAAAAEAA=</HashCode>
+      <FileName>Assets\Scripts\ARClean\UIScroller\ToolUIQuickAccess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UIScroller" BaseTypeListCollapsed="true">
+    <Position X="52" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQAAACABCBAAAAoEEBAEAAAIAAABHABAAAAgIACAAI=</HashCode>
+      <FileName>Assets\Scripts\ARClean\UIScroller\UIScroller.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ARCleanCamera">
+    <Position X="18.75" Y="2.75" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="ARCleanCamera.Directions" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\ARClean\ARCleanCamera.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQAAAABACQAAAAAAYAAAAAAAQICAAAABAAAAgAAABI=</HashCode>
+      <FileName>Assets\Scripts\ARClean\ARCleanCamera.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ARCleanDataStore">
+    <Position X="32.5" Y="13.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="ARCleanDataStore.GameLocation" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\ARClean\ARCleanDataStore.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="ARCleanDataStore.GameMode" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\ARClean\ARCleanDataStore.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="ARCleanDataStore.PlayerTool" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\ARClean\ARCleanDataStore.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAghIAUACAABMCIAIARCACIAAgKyAoAAFAAAgQAgIA=</HashCode>
+      <FileName>Assets\Scripts\ARClean\ARCleanDataStore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ARCleanDoorAnimation" BaseTypeListCollapsed="true">
+    <Position X="42" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\ARClean\ARCleanDoorAnimation.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ARCleanManager">
+    <Position X="44" Y="15" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="ARCleanManager.GameState" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\ARClean\ARCleanManager.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAEEDAAAAAYAEAAAAAABQIABAAIgBggAACAAAA=</HashCode>
+      <FileName>Assets\Scripts\ARClean\ARCleanManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ARCleanTool">
+    <Position X="25.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgQAAAAAAAAAAAAAAABAhAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\ARClean\ARCleanTool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ARGameLogicSystem">
+    <Position X="20.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQQChAAECAAUAgAAEAEAAAABAAQAAgIKAgAAAACAAA=</HashCode>
+      <FileName>Assets\Scripts\ARClean\ARGameLogicSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ARIconHandler" BaseTypeListCollapsed="true">
+    <Position X="44.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASCCAAAAAAAIAAAgAABAAAABAAAAIAAAAAAACAQAAAA=</HashCode>
+      <FileName>Assets\Scripts\ARClean\ARIconHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ARInventoryManager">
+    <Position X="42.25" Y="2.75" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="ARInventoryManager.InventoryState" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\ARClean\ARInventoryManager.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAACoAAAAAACAIAgAAAAAAABAAQAAiAAAAEAA=</HashCode>
+      <FileName>Assets\Scripts\ARClean\ARInventoryManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ARMenuSelection">
+    <Position X="40" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YAwAAgAAADBAAAAAAAAAAABBAAAAAABAABAAEAhAACA=</HashCode>
+      <FileName>Assets\Scripts\ARClean\ARMenuSelection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ARModelAccessibility">
+    <Position X="30.75" Y="13.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>JQRAABAQAmiDgICQAMjAAAEgQCgYMRA6AAAiAgTWJ0A=</HashCode>
+      <FileName>Assets\Scripts\ARClean\ARModelAccessibility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ARObjectHandler" BaseTypeListCollapsed="true">
+    <Position X="46.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACIIAAAgAgIgAAAAARAICAAAAAAAAQAAIBAAAQAMkM=</HashCode>
+      <FileName>Assets\Scripts\ARClean\ARObjectHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TransitionSystem">
+    <Position X="34.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQAAAAAAiAAEgAAAAAAABAAACAQAFABgACAAAgAAoA=</HashCode>
+      <FileName>Assets\Scripts\ARClean\TransitionSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

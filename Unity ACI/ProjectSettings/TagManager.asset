@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - example
+  - Supplier
+  - FreezeStorage
+  - FoodDatabase
+  - DryStorage
+  - TruckManager
+  - ColdStorage
+  - Truck
+  - Zoom
+  - Grime
+  - Guest
+  - Reject
+  - Table
+  - Counter
+  - FoodSelection
+  - ViewInfoButton
+  - StoreButton
+  - OrderListManager
+  - ImageSelectionAR
+  - ARWrongBtn
+  - ARRightBtn
+  - ARPurchased
+  - CleanUp
+  - G_Manager
+  - StorageTouchManager
+  - MeatFabrication
+  - freezeDoor
+  - wetDoor
+  - dryDoor
+  - LeftChairGroup
+  - RightChairGroup
+  - Shops
+  - BGM
+  - SFX
+  - BGM_SLIDER
+  - SFX_SLIDER
+  - AudioParent
+  - MFM
+  - Tools
+  - Mop
+  - Cloth
+  - Broom
+  - Trigger
+  - SoapWater
+  - WaterHose
+  - Towel
+  - Vacuum
+  - Brush
+  - Bubble
+  - CleanManager
+  - WetSign
+  - ARC_Stain
+  - ARC_Water
+  - ARC_Door
+  - ARC_Interactables
+  - ARC_Drain
+  - ARCleanDoor
+  - ARC_SpawnSurface
+  - ARC_Wok
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Table
+  - Sliceable
+  - WaterSpill
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

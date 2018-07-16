@@ -1,0 +1,236 @@
+fileFormatVersion: 2
+guid: a6c63921c9a40d649b1cc816fe879592
+timeCreated: 1505439002
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Back_Wheel
+    100002: Front_Wheel
+    100004: Main_Body_Truck
+    100006: pCube11
+    100008: pCube8
+    100010: pCylinder15
+    100012: pCylinder16
+    100014: pCylinder3
+    100016: polySurface1
+    100018: polySurface2
+    100020: polySurface3
+    100022: polySurface4
+    100024: polySurface7
+    100026: polySurface8
+    100028: polySurface9
+    100030: transform10
+    100032: transform11
+    100034: transform12
+    100036: transform13
+    100038: transform14
+    100040: transform15
+    100042: transform16
+    100044: transform17
+    100046: transform18
+    100048: transform7
+    100050: transform8
+    100052: transform9
+    100054: Truck
+    100056: //RootNode
+    100058: Truck_Whole
+    400000: Back_Wheel
+    400002: Front_Wheel
+    400004: Main_Body_Truck
+    400006: pCube11
+    400008: pCube8
+    400010: pCylinder15
+    400012: pCylinder16
+    400014: pCylinder3
+    400016: polySurface1
+    400018: polySurface2
+    400020: polySurface3
+    400022: polySurface4
+    400024: polySurface7
+    400026: polySurface8
+    400028: polySurface9
+    400030: transform10
+    400032: transform11
+    400034: transform12
+    400036: transform13
+    400038: transform14
+    400040: transform15
+    400042: transform16
+    400044: transform17
+    400046: transform18
+    400048: transform7
+    400050: transform8
+    400052: transform9
+    400054: Truck
+    400056: //RootNode
+    400058: Truck_Whole
+    2300000: Back_Wheel
+    2300002: Front_Wheel
+    2300004: Main_Body_Truck
+    3300000: Back_Wheel
+    3300002: Front_Wheel
+    3300004: Main_Body_Truck
+    4300000: Back_Wheel
+    4300002: Front_Wheel
+    4300004: Main_Body_Truck
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 400
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Main_Body_Truck
+        weight: 1
+      - path: pCube8
+        weight: 1
+      - path: pCube8/polySurface1
+        weight: 1
+      - path: pCube8/polySurface1/transform12
+        weight: 1
+      - path: pCube8/polySurface2
+        weight: 1
+      - path: pCube8/polySurface2/transform8
+        weight: 1
+      - path: pCube11
+        weight: 1
+      - path: pCube11/transform11
+        weight: 1
+      - path: pCylinder3
+        weight: 1
+      - path: pCylinder3/transform7
+        weight: 1
+      - path: pCylinder15
+        weight: 1
+      - path: pCylinder15/transform9
+        weight: 1
+      - path: pCylinder16
+        weight: 1
+      - path: pCylinder16/transform10
+        weight: 1
+      - path: Truck
+        weight: 1
+      - path: Truck/transform13
+        weight: 1
+      - path: Truck_Whole
+        weight: 1
+      - path: Truck_Whole/Back_Wheel
+        weight: 1
+      - path: Truck_Whole/Front_Wheel
+        weight: 1
+      - path: Truck_Whole/polySurface3
+        weight: 1
+      - path: Truck_Whole/polySurface3/transform18
+        weight: 1
+      - path: Truck_Whole/polySurface4
+        weight: 1
+      - path: Truck_Whole/polySurface4/transform17
+        weight: 1
+      - path: Truck_Whole/polySurface7
+        weight: 1
+      - path: Truck_Whole/polySurface7/transform16
+        weight: 1
+      - path: Truck_Whole/polySurface8
+        weight: 1
+      - path: Truck_Whole/polySurface8/transform14
+        weight: 1
+      - path: Truck_Whole/polySurface9
+        weight: 1
+      - path: Truck_Whole/polySurface9/transform15
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

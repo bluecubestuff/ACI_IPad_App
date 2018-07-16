@@ -1,0 +1,389 @@
+fileFormatVersion: 2
+guid: 7b649e9fcd59b064391985310199a451
+timeCreated: 1507089643
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Base_Hat_Joint
+    100002: Chef_Hat_Ctrl
+    100004: Chef_Main_Mesh
+    100006: Chest_Joint
+    100008: Global_Ctrl
+    100010: //RootNode
+    100012: Head_Ctrl
+    100014: Head_Joint
+    100016: joint1
+    100018: L_Ankle_Joint
+    100020: L_Ball_Foot
+    100022: L_Elbow_Joint
+    100024: L_Hand_Ctrl
+    100026: L_Index_Finger_01
+    100028: L_Index_Finger_02
+    100030: L_Index_Finger_03
+    100032: L_Knee_Ctrl
+    100034: L_Knee_Joint
+    100036: L_Leg_Ctrl
+    100038: L_Leg_IK_Handle
+    100040: L_Middle_Finger_01
+    100042: L_Middle_Finger_02
+    100044: L_Middle_Finger_03
+    100046: L_Pinky_Finger_01
+    100048: L_Pinky_Finger_02
+    100050: L_Shoulder_Ctrl
+    100052: L_Shoulder_Joint
+    100054: L_Thigh_Joint
+    100056: L_Thumb_01
+    100058: L_Thumb_02
+    100060: L_Toe_Joint
+    100062: L_Wrist_Joint
+    100064: left
+    100066: Mid_Hat_Joint
+    100068: Mid_Spine_Ctrl
+    100070: Mid_Spine_Joint
+    100072: persp1
+    100074: polySurface1
+    100076: polySurface2
+    100078: polySurface3
+    100080: polySurface5
+    100082: polySurface6
+    100084: R_Ankle_Joint
+    100086: R_Ball_Foot
+    100088: R_Elbow_Joint
+    100090: R_Hand_Ctrl
+    100092: R_Index_Finger_01
+    100094: R_Index_Finger_02
+    100096: R_Index_Finger_03
+    100098: R_Knee_Ctrl
+    100100: R_Knee_Joint
+    100102: R_Leg_Ctrl
+    100104: R_Leg_IK_Handle
+    100106: R_Middle_Finger_01
+    100108: R_Middle_Finger_02
+    100110: R_Middle_Finger_03
+    100112: R_Pinky_Finger_01
+    100114: R_Pinky_Finger_02
+    100116: R_Shoulder_Ctrl
+    100118: R_Shoulder_Joint
+    100120: R_Thigh_Joint
+    100122: R_Thumb_01
+    100124: R_Thumb_02
+    100126: R_Toe_Joint
+    100128: R_Wrist_Joint
+    100130: Root_Joint
+    100132: Top_Hat_Joint
+    400000: Base_Hat_Joint
+    400002: Chef_Hat_Ctrl
+    400004: Chef_Main_Mesh
+    400006: Chest_Joint
+    400008: Global_Ctrl
+    400010: //RootNode
+    400012: Head_Ctrl
+    400014: Head_Joint
+    400016: joint1
+    400018: L_Ankle_Joint
+    400020: L_Ball_Foot
+    400022: L_Elbow_Joint
+    400024: L_Hand_Ctrl
+    400026: L_Index_Finger_01
+    400028: L_Index_Finger_02
+    400030: L_Index_Finger_03
+    400032: L_Knee_Ctrl
+    400034: L_Knee_Joint
+    400036: L_Leg_Ctrl
+    400038: L_Leg_IK_Handle
+    400040: L_Middle_Finger_01
+    400042: L_Middle_Finger_02
+    400044: L_Middle_Finger_03
+    400046: L_Pinky_Finger_01
+    400048: L_Pinky_Finger_02
+    400050: L_Shoulder_Ctrl
+    400052: L_Shoulder_Joint
+    400054: L_Thigh_Joint
+    400056: L_Thumb_01
+    400058: L_Thumb_02
+    400060: L_Toe_Joint
+    400062: L_Wrist_Joint
+    400064: left
+    400066: Mid_Hat_Joint
+    400068: Mid_Spine_Ctrl
+    400070: Mid_Spine_Joint
+    400072: persp1
+    400074: polySurface1
+    400076: polySurface2
+    400078: polySurface3
+    400080: polySurface5
+    400082: polySurface6
+    400084: R_Ankle_Joint
+    400086: R_Ball_Foot
+    400088: R_Elbow_Joint
+    400090: R_Hand_Ctrl
+    400092: R_Index_Finger_01
+    400094: R_Index_Finger_02
+    400096: R_Index_Finger_03
+    400098: R_Knee_Ctrl
+    400100: R_Knee_Joint
+    400102: R_Leg_Ctrl
+    400104: R_Leg_IK_Handle
+    400106: R_Middle_Finger_01
+    400108: R_Middle_Finger_02
+    400110: R_Middle_Finger_03
+    400112: R_Pinky_Finger_01
+    400114: R_Pinky_Finger_02
+    400116: R_Shoulder_Ctrl
+    400118: R_Shoulder_Joint
+    400120: R_Thigh_Joint
+    400122: R_Thumb_01
+    400124: R_Thumb_02
+    400126: R_Toe_Joint
+    400128: R_Wrist_Joint
+    400130: Root_Joint
+    400132: Top_Hat_Joint
+    2300000: polySurface2
+    2300002: polySurface3
+    2300004: polySurface5
+    2300006: polySurface6
+    3300000: polySurface2
+    3300002: polySurface3
+    3300004: polySurface5
+    3300006: polySurface6
+    4300000: polySurface1
+    4300002: polySurface5
+    4300004: polySurface6
+    4300006: polySurface2
+    4300008: polySurface3
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: polySurface1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 407
+      lastFrame: 800
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Chef_Main_Mesh
+        weight: 1
+      - path: Chef_Main_Mesh/polySurface1
+        weight: 1
+      - path: Global_Ctrl
+        weight: 1
+      - path: Global_Ctrl/L_Leg_Ctrl
+        weight: 1
+      - path: Global_Ctrl/L_Leg_Ctrl/L_Knee_Ctrl
+        weight: 1
+      - path: Global_Ctrl/L_Leg_Ctrl/L_Leg_IK_Handle
+        weight: 1
+      - path: Global_Ctrl/Mid_Spine_Ctrl
+        weight: 1
+      - path: Global_Ctrl/Mid_Spine_Ctrl/Head_Ctrl
+        weight: 1
+      - path: Global_Ctrl/Mid_Spine_Ctrl/Head_Ctrl/Chef_Hat_Ctrl
+        weight: 1
+      - path: Global_Ctrl/Mid_Spine_Ctrl/L_Shoulder_Ctrl
+        weight: 1
+      - path: Global_Ctrl/Mid_Spine_Ctrl/L_Shoulder_Ctrl/L_Hand_Ctrl
+        weight: 1
+      - path: Global_Ctrl/Mid_Spine_Ctrl/R_Shoulder_Ctrl
+        weight: 1
+      - path: Global_Ctrl/Mid_Spine_Ctrl/R_Shoulder_Ctrl/R_Hand_Ctrl
+        weight: 1
+      - path: Global_Ctrl/R_Leg_Ctrl
+        weight: 1
+      - path: Global_Ctrl/R_Leg_Ctrl/R_Knee_Ctrl
+        weight: 1
+      - path: Global_Ctrl/R_Leg_Ctrl/R_Leg_IK_Handle
+        weight: 1
+      - path: Global_Ctrl/Root_Joint
+        weight: 1
+      - path: Global_Ctrl/Root_Joint/L_Thigh_Joint
+        weight: 1
+      - path: Global_Ctrl/Root_Joint/L_Thigh_Joint/L_Knee_Joint
+        weight: 1
+      - path: Global_Ctrl/Root_Joint/L_Thigh_Joint/L_Knee_Joint/L_Ankle_Joint
+        weight: 1
+      - path: Global_Ctrl/Root_Joint/L_Thigh_Joint/L_Knee_Joint/L_Ankle_Joint/L_Ball_Foot
+        weight: 1
+      - path: Global_Ctrl/Root_Joint/L_Thigh_Joint/L_Knee_Joint/L_Ankle_Joint/L_Ball_Foot/L_Toe_Joint
+        weight: 1
+      - path: Global_Ctrl/Root_Joint/Mid_Spine_Joint
+        weight: 1
+      - path: Global_Ctrl/Root_Joint/Mid_Spine_Joint/Chest_Joint
+        weight: 1
+      - path: Global_Ctrl/Root_Joint/Mid_Spine_Joint/Chest_Joint/joint1
+        weight: 1
+      - path: Global_Ctrl/Root_Joint/Mid_Spine_Joint/Chest_Joint/joint1/Head_Joint
+        weight: 1
+      - path: Global_Ctrl/Root_Joint/Mid_Spine_Joint/Chest_Joint/joint1/Head_Joint/Base_Hat_Joint
+        weight: 1
+      - path: Global_Ctrl/Root_Joint/Mid_Spine_Joint/Chest_Joint/joint1/Head_Joint/Base_Hat_Joint/Mid_Hat_Joint
+        weight: 1
+      - path: Global_Ctrl/Root_Joint/Mid_Spine_Joint/Chest_Joint/joint1/Head_Joint/Base_Hat_Joint/Mid_Hat_Joint/Top_Hat_Joint
+        weight: 1
+      - path: Global_Ctrl/Root_Joint/Mid_Spine_Joint/Chest_Joint/joint1/Head_Joint/polySurface2
+        weight: 1
+      - path: Global_Ctrl/Root_Joint/Mid_Spine_Joint/Chest_Joint/joint1/Head_Joint/polySurface3
+        weight: 1
+      - path: Global_Ctrl/Root_Joint/Mid_Spine_Joint/Chest_Joint/joint1/Head_Joint/polySurface5
+        weight: 1
+      - path: Global_Ctrl/Root_Joint/Mid_Spine_Joint/Chest_Joint/joint1/Head_Joint/polySurface6
+        weight: 1
+      - path: Global_Ctrl/Root_Joint/Mid_Spine_Joint/Chest_Joint/L_Shoulder_Joint
+        weight: 1
+      - path: Global_Ctrl/Root_Joint/Mid_Spine_Joint/Chest_Joint/L_Shoulder_Joint/L_Elbow_Joint
+        weight: 1
+      - path: Global_Ctrl/Root_Joint/Mid_Spine_Joint/Chest_Joint/L_Shoulder_Joint/L_Elbow_Joint/L_Wrist_Joint
+        weight: 1
+      - path: Global_Ctrl/Root_Joint/Mid_Spine_Joint/Chest_Joint/L_Shoulder_Joint/L_Elbow_Joint/L_Wrist_Joint/L_Index_Finger_01
+        weight: 1
+      - path: Global_Ctrl/Root_Joint/Mid_Spine_Joint/Chest_Joint/L_Shoulder_Joint/L_Elbow_Joint/L_Wrist_Joint/L_Index_Finger_01/L_Index_Finger_02
+        weight: 1
+      - path: Global_Ctrl/Root_Joint/Mid_Spine_Joint/Chest_Joint/L_Shoulder_Joint/L_Elbow_Joint/L_Wrist_Joint/L_Index_Finger_01/L_Index_Finger_02/L_Index_Finger_03
+        weight: 1
+      - path: Global_Ctrl/Root_Joint/Mid_Spine_Joint/Chest_Joint/L_Shoulder_Joint/L_Elbow_Joint/L_Wrist_Joint/L_Middle_Finger_01
+        weight: 1
+      - path: Global_Ctrl/Root_Joint/Mid_Spine_Joint/Chest_Joint/L_Shoulder_Joint/L_Elbow_Joint/L_Wrist_Joint/L_Middle_Finger_01/L_Middle_Finger_02
+        weight: 1
+      - path: Global_Ctrl/Root_Joint/Mid_Spine_Joint/Chest_Joint/L_Shoulder_Joint/L_Elbow_Joint/L_Wrist_Joint/L_Middle_Finger_01/L_Middle_Finger_02/L_Middle_Finger_03
+        weight: 1
+      - path: Global_Ctrl/Root_Joint/Mid_Spine_Joint/Chest_Joint/L_Shoulder_Joint/L_Elbow_Joint/L_Wrist_Joint/L_Pinky_Finger_01
+        weight: 1
+      - path: Global_Ctrl/Root_Joint/Mid_Spine_Joint/Chest_Joint/L_Shoulder_Joint/L_Elbow_Joint/L_Wrist_Joint/L_Pinky_Finger_01/L_Pinky_Finger_02
+        weight: 1
+      - path: Global_Ctrl/Root_Joint/Mid_Spine_Joint/Chest_Joint/L_Shoulder_Joint/L_Elbow_Joint/L_Wrist_Joint/L_Thumb_01
+        weight: 1
+      - path: Global_Ctrl/Root_Joint/Mid_Spine_Joint/Chest_Joint/L_Shoulder_Joint/L_Elbow_Joint/L_Wrist_Joint/L_Thumb_01/L_Thumb_02
+        weight: 1
+      - path: Global_Ctrl/Root_Joint/Mid_Spine_Joint/Chest_Joint/R_Shoulder_Joint
+        weight: 1
+      - path: Global_Ctrl/Root_Joint/Mid_Spine_Joint/Chest_Joint/R_Shoulder_Joint/R_Elbow_Joint
+        weight: 1
+      - path: Global_Ctrl/Root_Joint/Mid_Spine_Joint/Chest_Joint/R_Shoulder_Joint/R_Elbow_Joint/R_Wrist_Joint
+        weight: 1
+      - path: Global_Ctrl/Root_Joint/Mid_Spine_Joint/Chest_Joint/R_Shoulder_Joint/R_Elbow_Joint/R_Wrist_Joint/R_Index_Finger_01
+        weight: 1
+      - path: Global_Ctrl/Root_Joint/Mid_Spine_Joint/Chest_Joint/R_Shoulder_Joint/R_Elbow_Joint/R_Wrist_Joint/R_Index_Finger_01/R_Index_Finger_02
+        weight: 1
+      - path: Global_Ctrl/Root_Joint/Mid_Spine_Joint/Chest_Joint/R_Shoulder_Joint/R_Elbow_Joint/R_Wrist_Joint/R_Index_Finger_01/R_Index_Finger_02/R_Index_Finger_03
+        weight: 1
+      - path: Global_Ctrl/Root_Joint/Mid_Spine_Joint/Chest_Joint/R_Shoulder_Joint/R_Elbow_Joint/R_Wrist_Joint/R_Middle_Finger_01
+        weight: 1
+      - path: Global_Ctrl/Root_Joint/Mid_Spine_Joint/Chest_Joint/R_Shoulder_Joint/R_Elbow_Joint/R_Wrist_Joint/R_Middle_Finger_01/R_Middle_Finger_02
+        weight: 1
+      - path: Global_Ctrl/Root_Joint/Mid_Spine_Joint/Chest_Joint/R_Shoulder_Joint/R_Elbow_Joint/R_Wrist_Joint/R_Middle_Finger_01/R_Middle_Finger_02/R_Middle_Finger_03
+        weight: 1
+      - path: Global_Ctrl/Root_Joint/Mid_Spine_Joint/Chest_Joint/R_Shoulder_Joint/R_Elbow_Joint/R_Wrist_Joint/R_Pinky_Finger_01
+        weight: 1
+      - path: Global_Ctrl/Root_Joint/Mid_Spine_Joint/Chest_Joint/R_Shoulder_Joint/R_Elbow_Joint/R_Wrist_Joint/R_Pinky_Finger_01/R_Pinky_Finger_02
+        weight: 1
+      - path: Global_Ctrl/Root_Joint/Mid_Spine_Joint/Chest_Joint/R_Shoulder_Joint/R_Elbow_Joint/R_Wrist_Joint/R_Thumb_01
+        weight: 1
+      - path: Global_Ctrl/Root_Joint/Mid_Spine_Joint/Chest_Joint/R_Shoulder_Joint/R_Elbow_Joint/R_Wrist_Joint/R_Thumb_01/R_Thumb_02
+        weight: 1
+      - path: Global_Ctrl/Root_Joint/R_Thigh_Joint
+        weight: 1
+      - path: Global_Ctrl/Root_Joint/R_Thigh_Joint/R_Knee_Joint
+        weight: 1
+      - path: Global_Ctrl/Root_Joint/R_Thigh_Joint/R_Knee_Joint/R_Ankle_Joint
+        weight: 1
+      - path: Global_Ctrl/Root_Joint/R_Thigh_Joint/R_Knee_Joint/R_Ankle_Joint/R_Ball_Foot
+        weight: 1
+      - path: Global_Ctrl/Root_Joint/R_Thigh_Joint/R_Knee_Joint/R_Ankle_Joint/R_Ball_Foot/R_Toe_Joint
+        weight: 1
+      - path: left
+        weight: 1
+      - path: persp1
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

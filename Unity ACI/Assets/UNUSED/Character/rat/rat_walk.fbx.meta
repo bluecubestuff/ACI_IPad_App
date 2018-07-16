@@ -1,0 +1,221 @@
+fileFormatVersion: 2
+guid: 98648fd2b21145f409c3dec217385171
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: chest
+    100002: group12
+    100004: hip
+    100006: l_ankle
+    100008: l_elbow
+    100010: l_foot
+    100012: l_foot 1
+    100014: l_forearm1
+    100016: l_hindleg
+    100018: l_knee
+    100020: l_toe
+    100022: l_toe 1
+    100024: neck
+    100026: nose
+    100028: pasted__rat
+    100030: r_ankre
+    100032: r_elbow
+    100034: r_foot
+    100036: r_foot 1
+    100038: r_forearm
+    100040: r_hindreg
+    100042: r_knee
+    100044: r_toe
+    100046: r_toe 1
+    100048: //RootNode
+    100050: skull
+    100052: tail
+    100054: tail2
+    100056: tail3
+    100058: tailtip
+    400000: chest
+    400002: group12
+    400004: hip
+    400006: l_ankle
+    400008: l_elbow
+    400010: l_foot
+    400012: l_foot 1
+    400014: l_forearm1
+    400016: l_hindleg
+    400018: l_knee
+    400020: l_toe
+    400022: l_toe 1
+    400024: neck
+    400026: nose
+    400028: pasted__rat
+    400030: r_ankre
+    400032: r_elbow
+    400034: r_foot
+    400036: r_foot 1
+    400038: r_forearm
+    400040: r_hindreg
+    400042: r_knee
+    400044: r_toe
+    400046: r_toe 1
+    400048: //RootNode
+    400050: skull
+    400052: tail
+    400054: tail2
+    400056: tail3
+    400058: tailtip
+    4300000: pasted__rat
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: pasted__rat
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 70
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: group12
+        weight: 1
+      - path: group12/pasted__rat
+        weight: 1
+      - path: hip
+        weight: 1
+      - path: hip/chest
+        weight: 1
+      - path: hip/chest/l_forearm1
+        weight: 1
+      - path: hip/chest/l_forearm1/l_elbow
+        weight: 1
+      - path: hip/chest/l_forearm1/l_elbow/l_foot
+        weight: 1
+      - path: hip/chest/l_forearm1/l_elbow/l_foot/l_toe
+        weight: 1
+      - path: hip/chest/neck
+        weight: 1
+      - path: hip/chest/neck/skull
+        weight: 1
+      - path: hip/chest/neck/skull/nose
+        weight: 1
+      - path: hip/chest/r_forearm
+        weight: 1
+      - path: hip/chest/r_forearm/r_elbow
+        weight: 1
+      - path: hip/chest/r_forearm/r_elbow/r_foot
+        weight: 1
+      - path: hip/chest/r_forearm/r_elbow/r_foot/r_toe
+        weight: 1
+      - path: hip/l_hindleg
+        weight: 1
+      - path: hip/l_hindleg/l_knee
+        weight: 1
+      - path: hip/l_hindleg/l_knee/l_ankle
+        weight: 1
+      - path: hip/l_hindleg/l_knee/l_ankle/l_foot 1
+        weight: 1
+      - path: hip/l_hindleg/l_knee/l_ankle/l_foot 1/l_toe 1
+        weight: 1
+      - path: hip/r_hindreg
+        weight: 1
+      - path: hip/r_hindreg/r_knee
+        weight: 1
+      - path: hip/r_hindreg/r_knee/r_ankre
+        weight: 1
+      - path: hip/r_hindreg/r_knee/r_ankre/r_foot 1
+        weight: 1
+      - path: hip/r_hindreg/r_knee/r_ankre/r_foot 1/r_toe 1
+        weight: 1
+      - path: hip/tail3
+        weight: 1
+      - path: hip/tail3/tail2
+        weight: 1
+      - path: hip/tail3/tail2/tail
+        weight: 1
+      - path: hip/tail3/tail2/tail/tailtip
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 6
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 10
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

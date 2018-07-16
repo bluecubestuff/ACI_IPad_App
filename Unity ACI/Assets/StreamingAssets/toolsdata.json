@@ -1,0 +1,60 @@
+{
+"Items": [
+{
+  "ID": "0",
+  "name": "WetSign",
+  "unlocked": false,
+  "cleanType": 1,
+  "imageSource": "tools_Sign",
+  "prefabLocation": "tools_WetSign"
+},
+{
+  "iD": "1",
+  "name": "SoapWater",
+  "unlocked": false,
+  "cleanType": 1,
+  "imageSource": "tools_SolWater",
+  "prefabLocation": "tools_Soapwater"
+},
+{
+  "iD": "2",
+  "name": "WaterHose",
+  "unlocked": false,
+  "cleanType": 2,
+  "imageSource": "tools_Hose",
+  "prefabLocation": "tools_Hose"
+},
+{
+  "iD": "3",
+  "name": "Towel",
+  "unlocked": false,
+  "cleanType": 3,
+  "imageSource": "tools_Towel",
+  "prefabLocation": "tools_Towel"
+},
+{
+  "iD": "4",
+  "name": "Brush",
+  "unlocked": false,
+  "cleanType": 5,
+  "imageSource": "tools_Brush",
+  "prefabLocation": "tools_Brush"
+},
+{
+  "iD": "5",
+  "name": "Mop",
+  "unlocked": false,
+  "cleanType": 10,
+  "imageSource": "tools_Mop",
+  "prefabLocation": "tools_Mop"
+},
+{
+  "iD": "6",
+  "name": "Broom",
+  "unlocked": false,
+  "cleanType": 6,
+  "imageSource": "tools_Broom",
+  "prefabLocation": "tools_Broom"
+}
+]
+}

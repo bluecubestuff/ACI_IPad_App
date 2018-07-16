@@ -1,0 +1,155 @@
+fileFormatVersion: 2
+guid: 121be5050c8725548b268cd04848f963
+timeCreated: 1499157500
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Cheese_Shop_Counter
+    100004: Cheese_Shop_Front_Wall2
+    100006: Cheese_Shop_Pillar2
+    100008: Cheese_Shop_Pillar3
+    100010: Cheese_Shop_Pillar4
+    100012: Cheese_Shop_Shelf3
+    100014: Cheese_Shop_Shelf4
+    100016: Cheese_Shop_Shelf5
+    100018: Cheese_Shop_Shelf6
+    100020: Cheese_Shop_Shelf7
+    100022: Cheese_Shop_Shelter2
+    100024: Meat_Shop_Roof2
+    100026: polySurface10
+    100028: polySurface11
+    100030: polySurface12
+    100032: polySurface5
+    100034: polySurface9
+    100036: polySurface13
+    400000: //RootNode
+    400002: Cheese_Shop_Counter
+    400004: Cheese_Shop_Front_Wall2
+    400006: Cheese_Shop_Pillar2
+    400008: Cheese_Shop_Pillar3
+    400010: Cheese_Shop_Pillar4
+    400012: Cheese_Shop_Shelf3
+    400014: Cheese_Shop_Shelf4
+    400016: Cheese_Shop_Shelf5
+    400018: Cheese_Shop_Shelf6
+    400020: Cheese_Shop_Shelf7
+    400022: Cheese_Shop_Shelter2
+    400024: Meat_Shop_Roof2
+    400026: polySurface10
+    400028: polySurface11
+    400030: polySurface12
+    400032: polySurface5
+    400034: polySurface9
+    400036: polySurface13
+    2300000: Cheese_Shop_Counter
+    2300002: Cheese_Shop_Front_Wall2
+    2300004: Cheese_Shop_Pillar2
+    2300006: Cheese_Shop_Pillar3
+    2300008: Cheese_Shop_Pillar4
+    2300010: Cheese_Shop_Shelf3
+    2300012: Cheese_Shop_Shelf4
+    2300014: Cheese_Shop_Shelf5
+    2300016: Cheese_Shop_Shelf6
+    2300018: Cheese_Shop_Shelf7
+    2300020: Cheese_Shop_Shelter2
+    2300022: Meat_Shop_Roof2
+    2300024: polySurface12
+    2300026: polySurface9
+    2300028: polySurface13
+    3300000: Cheese_Shop_Counter
+    3300002: Cheese_Shop_Front_Wall2
+    3300004: Cheese_Shop_Pillar2
+    3300006: Cheese_Shop_Pillar3
+    3300008: Cheese_Shop_Pillar4
+    3300010: Cheese_Shop_Shelf3
+    3300012: Cheese_Shop_Shelf4
+    3300014: Cheese_Shop_Shelf5
+    3300016: Cheese_Shop_Shelf6
+    3300018: Cheese_Shop_Shelf7
+    3300020: Cheese_Shop_Shelter2
+    3300022: Meat_Shop_Roof2
+    3300024: polySurface12
+    3300026: polySurface9
+    3300028: polySurface13
+    4300000: polySurface9
+    4300002: Cheese_Shop_Front_Wall2
+    4300004: polySurface12
+    4300006: Cheese_Shop_Counter
+    4300008: Cheese_Shop_Shelf3
+    4300010: Cheese_Shop_Shelf4
+    4300012: Cheese_Shop_Shelf5
+    4300014: Cheese_Shop_Shelf6
+    4300016: Cheese_Shop_Shelf7
+    4300018: Cheese_Shop_Shelter2
+    4300020: Meat_Shop_Roof2
+    4300022: Cheese_Shop_Pillar2
+    4300024: Cheese_Shop_Pillar3
+    4300026: Cheese_Shop_Pillar4
+    4300028: polySurface13
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
