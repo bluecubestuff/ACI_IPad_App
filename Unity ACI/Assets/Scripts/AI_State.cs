@@ -50,10 +50,12 @@ public class AI_State : MonoBehaviour {
             if (RNGChance == 1)
             {
                 //AddPopPoints();
-                StockManager.AddPopularityPoints(0.5f);
+                StockManager.AddPopularityPoints(1f);
+                //StockManager.AddPopularityPoints(0.5f);
             }
             else
-                StockManager.AddPopularityPoints(0.3f);
+                StockManager.AddPopularityPoints(0.5f);
+            //StockManager.AddPopularityPoints(0.3f);
         }
         else if (StocknPopularityManager.starRating > 0.4f)
         {

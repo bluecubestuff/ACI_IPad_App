@@ -195,6 +195,10 @@ Prefab:
       propertyPath: m_Name
       value: Floor Area
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
   m_IsPrefabParent: 0
@@ -424,11 +428,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
       propertyPath: mWidth
-      value: 9.999998
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
       propertyPath: mHeight
-      value: 10.97656
+      value: 10.976562
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
       propertyPath: m_LocalScale.x
@@ -445,6 +449,10 @@ Prefab:
     - target: {fileID: 100000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
       propertyPath: m_Name
       value: Stove Area
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
@@ -539,6 +547,10 @@ Prefab:
     - target: {fileID: 100000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
       propertyPath: m_Name
       value: Preparation Area
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
@@ -837,11 +849,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
       propertyPath: mWidth
-      value: 0.91103214
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
       propertyPath: mHeight
-      value: 1
+      value: 10.976562
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
       propertyPath: m_LocalScale.x
@@ -858,6 +870,10 @@ Prefab:
     - target: {fileID: 100000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
       propertyPath: m_Name
       value: Sink Area
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
@@ -1020,6 +1036,10 @@ Prefab:
       propertyPath: m_Name
       value: Trash Area
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
   m_IsPrefabParent: 0
@@ -1111,7 +1131,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: StationChillerMaterial
+  m_Name: FloorAreaMaterial
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -1124,7 +1144,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 96d0f7ede09a4f84b940cc2a34744d73, type: 3}
+        m_Texture: {fileID: 2800000, guid: ad3c320f64c8429eb44fe8e8f68f94a2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -1323,11 +1343,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
       propertyPath: mWidth
-      value: 0.91103214
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
       propertyPath: mHeight
-      value: 1
+      value: 10.976562
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
       propertyPath: m_LocalScale.x
@@ -1344,6 +1364,10 @@ Prefab:
     - target: {fileID: 100000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
       propertyPath: m_Name
       value: Wok Area
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
@@ -1438,6 +1462,10 @@ Prefab:
     - target: {fileID: 100000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
       propertyPath: m_Name
       value: Laundry Room Area
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
@@ -1745,6 +1773,10 @@ Prefab:
     - target: {fileID: 100000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
       propertyPath: m_Name
       value: Station Chiller Area
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}

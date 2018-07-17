@@ -165,12 +165,14 @@ public class Table : MonoBehaviour {
             if (RNGChance == 1)
             {
                 AddPopPoints();
+                Debug.Log("Pop pts added");
             }
             RNGChance = 0;
         }
         else if (StocknPopularityManager.starRating >= 3)
         {
             AddPopPoints();
+            Debug.Log("Pop pts added");
         }
     }
 

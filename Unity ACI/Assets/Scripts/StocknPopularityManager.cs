@@ -42,7 +42,7 @@ public class StocknPopularityManager : MonoBehaviour {
         stockBar.fillAmount = stockValue;
 
         #region DebugInputs
-
+#if UNITY_EDITOR
         if (Input.GetKeyUp(KeyCode.O))
         {
             ReduceStockPoints(0.1f);
@@ -76,6 +76,7 @@ public class StocknPopularityManager : MonoBehaviour {
         {
             ReinitiallizeRestaurant();
         }
+#endif
         #endregion
     }
 
