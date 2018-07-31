@@ -42,8 +42,8 @@ public class ARCleanDataStore : MonoBehaviour {
     {
         PT_Undefined = 0,
         PT_Sponge,
-        PT_HeavySpongeGenie,
-        PT_HeavySpongeKellen,
+        PT_Genie,
+        PT_Kellen,
         PT_DryCloth,
         PT_CookingOil,
         PT_Alcosan,
@@ -54,6 +54,11 @@ public class ARCleanDataStore : MonoBehaviour {
         PT_Wiper,
         PT_HardBrush,
         PT_MAX,
+
+        // combinations to be place below max
+        PT_HeavySpongeGenie,
+        PT_HeavySpongeKellen,
+        PT_ClothAlcosan,
     }
 
     public static List<KeyValuePair<string, Sprite>> InventoryList;
@@ -74,6 +79,7 @@ public class ARCleanDataStore : MonoBehaviour {
     public static int PenaltyCounter;
     public static int GameModeGameState;
     public static string SoundSystemName = "ARCSoundSystem";
+    public static Pair<PlayerTool, PlayerTool> playerTools;
 
     // Private Variables
     [SerializeField] private bool DebugMode = false;
@@ -82,6 +88,7 @@ public class ARCleanDataStore : MonoBehaviour {
     [SerializeField] private static GameMode CurrentGameMode;
     [SerializeField] private static int CurrentGamePhase;
     [SerializeField] private static PlayerTool CurrentPlayerTool;
+
     public static bool ObjectInteractibleFlag;
     public static bool PlayerInputFlag;
     public static bool PlayerInputFlagReset;
@@ -125,6 +132,7 @@ public class ARCleanDataStore : MonoBehaviour {
         ForceCurrentDoorClose = false;
         HideRotationalArrows = false;
         RequiredObject = "";
+        playerTools = new Pair<PlayerTool, PlayerTool>(PlayerTool.PT_Undefined, PlayerTool.PT_Undefined);
     }
 
     // Getters
@@ -226,6 +234,8 @@ public class ARCleanDataStore : MonoBehaviour {
     public void ResetGameInternalPhase()
     {
         GameModeGameState = 0;
+        playerTools.First = PlayerTool.PT_Undefined;
+        playerTools.Second = PlayerTool.PT_Undefined;
     }
 
     public static bool DetectPlayerInput()

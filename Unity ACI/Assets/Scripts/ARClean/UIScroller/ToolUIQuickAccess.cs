@@ -34,13 +34,51 @@ public class ToolUIQuickAccess : MonoBehaviour {
     {
         if (!LockedIcon.activeSelf)
         {
-            if (ARCleanDataStore.GetPlayerTool() != ARCleanDataStore.PlayerTool.PT_Undefined && ARCleanDataStore.GetPlayerTool() == ToolType)
+            Pair<ARCleanDataStore.PlayerTool, ARCleanDataStore.PlayerTool> pTools = ARCleanDataStore.playerTools;
+
+            // If selected tool is already selected, unselect it.
+            if (ARCleanDataStore.GetPlayerTool() != ARCleanDataStore.PlayerTool.PT_Undefined
+                && (pTools.First == ToolType || pTools.Second == ToolType))
             {
-                ARCleanDataStore.SetPlayerTool(ARCleanDataStore.PlayerTool.PT_Undefined);
+                if (pTools.First == ToolType)
+                {
+                    pTools.First = ARCleanDataStore.PlayerTool.PT_Undefined;
+                    pTools.isFirst = true;
+                    ARCleanDataStore.SetPlayerTool(pTools.Second);
+                    SetToolIconBasedOnType();
+                }
+                else if (pTools.Second == ToolType)
+                {
+                    pTools.Second = ARCleanDataStore.PlayerTool.PT_Undefined;
+                    pTools.isFirst = false;
+                    ARCleanDataStore.SetPlayerTool(pTools.First);
+                    SetToolIconBasedOnType();
+                }
+                //ARCleanDataStore.SetPlayerTool(ARCleanDataStore.PlayerTool.PT_Undefined);
+                SelectedIcon.SetActive(false);
                 return;
             }
+
+            // If 1st & 2nd have tool assigned, return. 
+            if (pTools.First != ARCleanDataStore.PlayerTool.PT_Undefined
+                && pTools.Second != ARCleanDataStore.PlayerTool.PT_Undefined)
+                return;
+
             ARCleanDataStore.SetPlayerTool(ToolType);
+            if(pTools.isFirst)
+            {
+                pTools.First = ToolType;
+                pTools.isFirst = false;
+            }
+            else
+            {
+                pTools.Second = ToolType;
+                pTools.isFirst = true;
+            }
+            if (!CheckCombination())
+                return;
             SetToolIconBasedOnType();
+            SelectedIcon.SetActive(true);
             Locked = false;
 
             //if (ARCleanDataStore.ModelAccess.ScrollerModule)
@@ -122,6 +160,21 @@ public class ToolUIQuickAccess : MonoBehaviour {
                     IconSelf.sprite = Icon_HardBrush;
                 ToolTip.text = "Hard Brush";
                 break;
+            case ARCleanDataStore.PlayerTool.PT_Genie:
+                if (Icon_Genie != null)
+                    IconSelf.sprite = Icon_Genie;
+                ToolTip.text = "Genie";
+                break;
+            case ARCleanDataStore.PlayerTool.PT_Kellen:
+                if (Icon_Kellen != null)
+                    IconSelf.sprite = Icon_Kellen;
+                ToolTip.text = "Kleen";
+                break;
+            case ARCleanDataStore.PlayerTool.PT_ClothAlcosan:
+                if (Icon_Alcosan != null)
+                    IconSelf.sprite = Icon_Alcosan;
+                ToolTip.text = "Alcosan";
+                break;
         }
     }
 
@@ -129,7 +182,7 @@ public class ToolUIQuickAccess : MonoBehaviour {
     {
         if (ARCleanDataStore.ModelAccess.CurrentToolImage == null)
             return;
-        switch (ToolType)
+        switch (ARCleanDataStore.GetPlayerTool())//ToolType)
         {
             case ARCleanDataStore.PlayerTool.PT_Sponge:
                 if (Icon_Sponge != null)
@@ -179,10 +232,72 @@ public class ToolUIQuickAccess : MonoBehaviour {
                 if (Icon_HardBrush != null)
                     ARCleanDataStore.ModelAccess.CurrentToolImage.sprite = Icon_HardBrush;
                 break;
+            case ARCleanDataStore.PlayerTool.PT_Genie:
+                if (Icon_Genie != null)
+                    ARCleanDataStore.ModelAccess.CurrentToolImage.sprite = Icon_Genie;
+                break;
+            case ARCleanDataStore.PlayerTool.PT_Kellen:
+                if (Icon_Kellen != null)
+                    ARCleanDataStore.ModelAccess.CurrentToolImage.sprite = Icon_Kellen;
+                break;
+            case ARCleanDataStore.PlayerTool.PT_ClothAlcosan:
+                if (Icon_Alcosan != null)
+                    ARCleanDataStore.ModelAccess.CurrentToolImage.sprite = Icon_Alcosan;
+                break;
             default:
                 if (ARCleanDataStore.ModelAccess.DefaultToolIcon != null)
                     ARCleanDataStore.ModelAccess.CurrentToolImage.sprite = ARCleanDataStore.ModelAccess.DefaultToolIcon;
                 break;
         }
+    }
+
+    bool CheckCombination()
+    {
+        // If 2 tools are not selected, return
+        if (ARCleanDataStore.playerTools.First == ARCleanDataStore.PlayerTool.PT_Undefined
+           || ARCleanDataStore.playerTools.Second == ARCleanDataStore.PlayerTool.PT_Undefined)
+            return true;
+
+        Pair<ARCleanDataStore.PlayerTool, ARCleanDataStore.PlayerTool> pTool 
+            = new Pair<ARCleanDataStore.PlayerTool, ARCleanDataStore.PlayerTool>(ARCleanDataStore.playerTools);
+
+        // possible combinations
+        if((pTool.First == ARCleanDataStore.PlayerTool.PT_Kellen || pTool.Second == ARCleanDataStore.PlayerTool.PT_Kellen)
+            && (pTool.First == ARCleanDataStore.PlayerTool.PT_Sponge || pTool.Second == ARCleanDataStore.PlayerTool.PT_Sponge))
+        {
+            ARCleanDataStore.SetPlayerTool(ARCleanDataStore.PlayerTool.PT_HeavySpongeKellen);
+            Debug.Log("Combi To: Kellen");
+            return true;
+        }
+        else if((pTool.First == ARCleanDataStore.PlayerTool.PT_Genie || pTool.Second == ARCleanDataStore.PlayerTool.PT_Genie)
+            && (pTool.First == ARCleanDataStore.PlayerTool.PT_Sponge || pTool.Second == ARCleanDataStore.PlayerTool.PT_Sponge))
+        {
+            ARCleanDataStore.SetPlayerTool(ARCleanDataStore.PlayerTool.PT_HeavySpongeGenie);
+            Debug.Log("Combi To: Genie");
+            return true;
+        }
+        else if((pTool.First == ARCleanDataStore.PlayerTool.PT_DryCloth || pTool.Second == ARCleanDataStore.PlayerTool.PT_DryCloth)
+            && (pTool.First == ARCleanDataStore.PlayerTool.PT_Alcosan || pTool.Second == ARCleanDataStore.PlayerTool.PT_Alcosan))
+        {
+            ARCleanDataStore.SetPlayerTool(ARCleanDataStore.PlayerTool.PT_ClothAlcosan);
+            Debug.Log("Combi To: Alcosan");
+            return true;
+        }
+        else
+        {
+            // Deselect them and set curr tool to undefine
+            ARCleanDataStore.playerTools.First = ARCleanDataStore.PlayerTool.PT_Undefined;
+            ARCleanDataStore.playerTools.Second = ARCleanDataStore.PlayerTool.PT_Undefined;
+            ARCleanDataStore.playerTools.isFirst = true;
+
+            foreach (ToolUIQuickAccess Tool in ARCleanDataStore.LinkedToolInventory)
+                if (Tool != null)
+                    Tool.SelectedIcon.SetActive(false);
+
+            ARCleanDataStore.SetPlayerTool(ARCleanDataStore.PlayerTool.PT_Undefined);
+            Debug.Log("Combi To: nothing");
+            return false;
+        }
+
     }
 }

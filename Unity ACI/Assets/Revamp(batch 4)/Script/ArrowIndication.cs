@@ -48,12 +48,15 @@ public class ArrowIndication : MonoBehaviour {
         //Laundry area stuffs
         if (ARCleanDataStore.GameLocation.GL_Laundry == ARCleanDataStore.GetPlayerLocation())   
         {
-            if (ARCleanDataStore.LinkedToolInventory[(int)ARCleanDataStore.PlayerTool.PT_Alcosan].LockedIcon.activeSelf || ARCleanDataStore.LinkedToolInventory[(int)ARCleanDataStore.PlayerTool.PT_HeavySpongeGenie].LockedIcon.activeSelf)
+            if (ARCleanDataStore.LinkedToolInventory[(int)ARCleanDataStore.PlayerTool.PT_Alcosan].LockedIcon.activeSelf 
+                || ARCleanDataStore.LinkedToolInventory[(int)ARCleanDataStore.PlayerTool.PT_Genie].LockedIcon.activeSelf)
                 toolArrows[0].SetActive(true);
             else
                 toolArrows[0].SetActive(false);
 
-            if (ARCleanDataStore.LinkedToolInventory[(int)ARCleanDataStore.PlayerTool.PT_Alkaclean].LockedIcon.activeSelf || ARCleanDataStore.LinkedToolInventory[(int)ARCleanDataStore.PlayerTool.PT_HardBrush].LockedIcon.activeSelf || ARCleanDataStore.LinkedToolInventory[(int)ARCleanDataStore.PlayerTool.PT_HeavySpongeKellen].LockedIcon.activeSelf)
+            if (ARCleanDataStore.LinkedToolInventory[(int)ARCleanDataStore.PlayerTool.PT_Alkaclean].LockedIcon.activeSelf 
+                || ARCleanDataStore.LinkedToolInventory[(int)ARCleanDataStore.PlayerTool.PT_HardBrush].LockedIcon.activeSelf 
+                || ARCleanDataStore.LinkedToolInventory[(int)ARCleanDataStore.PlayerTool.PT_Kellen].LockedIcon.activeSelf)
                 toolArrows[1].SetActive(true);
             else
                 toolArrows[1].SetActive(false);

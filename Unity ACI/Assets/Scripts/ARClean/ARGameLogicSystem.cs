@@ -125,7 +125,7 @@ public class ARGameLogicSystem : MonoBehaviour
             GameLogicUpdate();
             ToolLogicUpdate();
             PlayTime += Time.deltaTime;
-            ToolSelectionUIUpdate();
+            //ToolSelectionUIUpdate();
         }
     }
 
@@ -133,7 +133,7 @@ public class ARGameLogicSystem : MonoBehaviour
     {
         foreach (ToolUIQuickAccess Tool in ARCleanDataStore.LinkedToolInventory)
             if (Tool != null)
-                Tool.SelectedIcon.SetActive(ARCleanDataStore.GetPlayerTool() == Tool.ToolType) ;
+                Tool.SelectedIcon.SetActive(ARCleanDataStore.GetPlayerTool() == Tool.ToolType);
     }
 
     private void TransitionUIUpdate()

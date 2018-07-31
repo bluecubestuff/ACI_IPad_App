@@ -261,13 +261,13 @@ public class ARCleanPrepAreaLogic : ARCleanModeLogic
         {
             if (ARCleanDataStore.ShowHints)
             {
-                ProgressSubHeaderText.text = "Stage 4: Disinfect the work table using [Alcosan]\n [Alcosan] can be found in the laundry room.";
-                if (!ArrowIndication.Instance.inventory.GetToolIsOpen() && ARCleanDataStore.GetPlayerTool() != ARCleanDataStore.PlayerTool.PT_Alcosan)
+                ProgressSubHeaderText.text = "Stage 4: Disinfect the work table using [Alcosan + DryCloth]\n [Alcosan] can be found in the laundry room.";
+                if (!ArrowIndication.Instance.inventory.GetToolIsOpen() && ARCleanDataStore.GetPlayerTool() != ARCleanDataStore.PlayerTool.PT_ClothAlcosan)
                 {
                     ArrowIndication.Instance.activityArrow.SetActive(false);
                     ArrowIndication.Instance.toolArrow.SetActive(true);
                 }
-                else if (ArrowIndication.Instance.inventory.GetToolIsOpen() && ARCleanDataStore.GetPlayerTool() != ARCleanDataStore.PlayerTool.PT_Alcosan)
+                else if (ArrowIndication.Instance.inventory.GetToolIsOpen() && ARCleanDataStore.GetPlayerTool() != ARCleanDataStore.PlayerTool.PT_ClothAlcosan)
                 {
                     ArrowIndication.Instance.toolArrow.SetActive(false);
                     ArrowIndication.Instance.sideBarArrow.SetActive(true);
@@ -289,7 +289,7 @@ public class ARCleanPrepAreaLogic : ARCleanModeLogic
                 CleanTool.SetToolHitPosition(Input.mousePosition, true, "");
                 if (ARCleanDataStore.CleanToolActive)
                     if (ARCleanDataStore.ModelAccess.SetupErrorWithNotComparator(ARCleanDataStore.CameraCurrentDirection, ARCleanCamera.Directions.D_Up, "Wrong Direction", "You need to be looking from above!", "You can't use your tool here...", ARCleanDataStore.PenaltyCounter < 3) ||
-                        ARCleanDataStore.ModelAccess.SetupErrorWithNotComparator(ARCleanDataStore.GetPlayerTool(), ARCleanDataStore.PlayerTool.PT_Alcosan, "Wrong Tool", "You need to be using Alcosan!", "Try another tool...", ARCleanDataStore.PenaltyCounter < 3))
+                        ARCleanDataStore.ModelAccess.SetupErrorWithNotComparator(ARCleanDataStore.GetPlayerTool(), ARCleanDataStore.PlayerTool.PT_ClothAlcosan, "Wrong Tool", "You need to be using Alcosan!", "Try another tool...", ARCleanDataStore.PenaltyCounter < 3))
                     {
                         ARCleanDataStore.CleanToolActive = false;
                         ARCleanDataStore.PenaltyCounter++;

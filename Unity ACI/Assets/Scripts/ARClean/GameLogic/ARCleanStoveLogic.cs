@@ -294,7 +294,7 @@ public class ARCleanStoveLogic : ARCleanModeLogic
             if (ARCleanDataStore.ShowHints)
             {
                 ProgressSubHeaderText.text = "Stage 7: Scrub the stove range using [Kleen]\n [Kleen] can be found in the laundry room.";
-                if (ARCleanDataStore.LinkedToolInventory[(int)ARCleanDataStore.PlayerTool.PT_HeavySpongeKellen].LockedIcon.activeSelf)
+                if (ARCleanDataStore.LinkedToolInventory[(int)ARCleanDataStore.PlayerTool.PT_Kellen].LockedIcon.activeSelf)
                     ArrowIndication.Instance.scanArrow.SetActive(true);
                 else
                 {

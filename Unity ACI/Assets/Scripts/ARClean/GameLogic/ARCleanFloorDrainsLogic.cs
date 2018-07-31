@@ -592,7 +592,7 @@ public class ARCleanFloorDrainsLogic : ARCleanModeLogic
                 case 1:
                     if (ARCleanDataStore.ShowHints)
                     {
-                        ProgressSubHeaderText.text = "Stage 10: Scrub the L-Shape Metal Drain Filter using [Genie]\n [Genie] can be found in the laundry room.";
+                        ProgressSubHeaderText.text = "Stage 10: Scrub the L-Shape Metal Drain Filter using [Genie] + [Sponge]\n [Genie] can be found in the laundry room.";
                         if (!ArrowIndication.Instance.inventory.GetToolIsOpen() && ARCleanDataStore.GetPlayerTool() != ARCleanDataStore.PlayerTool.PT_HeavySpongeGenie)
                         {
                             ArrowIndication.Instance.activityArrow.SetActive(false);

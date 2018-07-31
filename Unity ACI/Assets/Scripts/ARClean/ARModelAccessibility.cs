@@ -303,6 +303,16 @@ public class ARModelAccessibility : MonoBehaviour
             case ARCleanDataStore.PlayerTool.PT_HardBrush:
                 ARCleanDataStore.ModelAccess.CurrentCleaningTool = ARCleanDataStore.ModelAccess.Tool_HardBrush;
                 break;
+
+            case ARCleanDataStore.PlayerTool.PT_Genie:
+                ARCleanDataStore.ModelAccess.CurrentCleaningTool = ARCleanDataStore.ModelAccess.Tool_Genie;
+                break;
+            case ARCleanDataStore.PlayerTool.PT_Kellen:
+                ARCleanDataStore.ModelAccess.CurrentCleaningTool = ARCleanDataStore.ModelAccess.Tool_Kellen;
+                break;
+            case ARCleanDataStore.PlayerTool.PT_ClothAlcosan:
+                ARCleanDataStore.ModelAccess.CurrentCleaningTool = ARCleanDataStore.ModelAccess.Tool_Alcosan;
+                break;
         }
     }
 
@@ -328,8 +338,8 @@ public class ARModelAccessibility : MonoBehaviour
     private void HideTakenProps()
     {
         HideProp(ARCleanDataStore.PlayerTool.PT_Sponge, Prop_Sponge);
-        HideProp(ARCleanDataStore.PlayerTool.PT_HeavySpongeKellen, Prop_Kellen);
-        HideProp(ARCleanDataStore.PlayerTool.PT_HeavySpongeGenie, Prop_Genie);
+        //HideProp(ARCleanDataStore.PlayerTool.PT_HeavySpongeKellen, Prop_Kellen);
+        //HideProp(ARCleanDataStore.PlayerTool.PT_HeavySpongeGenie, Prop_Genie);
         HideProp(ARCleanDataStore.PlayerTool.PT_DryCloth, Prop_Cloth);
         HideProp(ARCleanDataStore.PlayerTool.PT_CookingOil, Prop_Oil);
         HideProp(ARCleanDataStore.PlayerTool.PT_Alcosan, Prop_Alcosan);
@@ -339,6 +349,10 @@ public class ARModelAccessibility : MonoBehaviour
         HideProp(ARCleanDataStore.PlayerTool.PT_Alkaclean, Prop_Alkaclean);
         HideProp(ARCleanDataStore.PlayerTool.PT_Wiper, Prop_Wiper);
         HideProp(ARCleanDataStore.PlayerTool.PT_HardBrush, Prop_HardBrush);
+
+        HideProp(ARCleanDataStore.PlayerTool.PT_Kellen, Prop_Kellen);
+        HideProp(ARCleanDataStore.PlayerTool.PT_Genie, Prop_Genie);
+       // HideProp(ARCleanDataStore.PlayerTool.PT_ClothAlcosan, Prop_Alcosan);
     }
 
     private void HideProp(ARCleanDataStore.PlayerTool ToolType, GameObject Prop)
