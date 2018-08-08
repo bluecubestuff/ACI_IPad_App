@@ -261,7 +261,7 @@ public class ARCleanPrepAreaLogic : ARCleanModeLogic
         {
             if (ARCleanDataStore.ShowHints)
             {
-                ProgressSubHeaderText.text = "Stage 4: Disinfect the work table using [Alcosan + DryCloth]\n [Alcosan] can be found in the laundry room.";
+                ProgressSubHeaderText.text = "Stage 4: Disinfect the work table using [Alcosan] + [DryCloth]\n [Alcosan] can be found in the laundry room.";
                 if (!ArrowIndication.Instance.inventory.GetToolIsOpen() && ARCleanDataStore.GetPlayerTool() != ARCleanDataStore.PlayerTool.PT_ClothAlcosan)
                 {
                     ArrowIndication.Instance.activityArrow.SetActive(false);
@@ -276,10 +276,7 @@ public class ARCleanPrepAreaLogic : ARCleanModeLogic
                 {
                     ArrowIndication.Instance.sideBarArrow.SetActive(false);
                     ArrowIndication.Instance.activityArrow.SetActive(true);
-                }
-
-
-                       
+                }         
             }
             else ProgressSubHeaderText.text = "";
 
